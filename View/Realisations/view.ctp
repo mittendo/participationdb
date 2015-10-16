@@ -8,7 +8,7 @@
 		</dd>
 		<dt><?php echo __('Municipality'); ?></dt>
 		<dd>
-			<?php echo h($realisation['Realisation']['municipality']); ?>
+			<?php echo h($realisation['Realisation']['main_municipality']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Land'); ?></dt>

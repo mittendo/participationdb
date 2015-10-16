@@ -3,7 +3,7 @@
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('municipality'); ?></th>
+			<th><?php echo $this->Paginator->sort('main_municipality'); ?></th>
 			<th><?php echo $this->Paginator->sort('land'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('initiating_actor'); ?></th>

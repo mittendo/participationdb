@@ -4,7 +4,7 @@
 		<legend><?php echo __('Edit Realisation'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('municipality');
+		echo $this->Form->input('main_municipality');
 		echo $this->Form->input('land');
 		echo $this->Form->input('name');
 		echo $this->Form->input('initiating_actor');

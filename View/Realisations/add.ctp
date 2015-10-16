@@ -3,7 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Realisation'); ?></legend>
 	<?php
-		echo $this->Form->input('municipality');
+		echo $this->Form->input('main_municipality');
 		echo $this->Form->input('land');
 		echo $this->Form->input('name');
 		echo $this->Form->input('initiating_actor');
