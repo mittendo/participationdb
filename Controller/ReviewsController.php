@@ -6,6 +6,11 @@ App::uses('AppController', 'Controller');
  * @property Review $Review
  */
 class ReviewsController extends AppController {
+    
+    public function beforeFilter() {
+    parent::beforeFilter();
+    $this->Auth->allow('index', 'view');
+}
 
 /**
  * index method

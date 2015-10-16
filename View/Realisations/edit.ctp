@@ -24,7 +24,7 @@
 		echo $this->Form->input('conflict_of_interests');
 		echo $this->Form->input('date');
 		echo $this->Form->input('URL');
-		echo $this->Form->input('U');
+		//echo $this->Form->input('U');
 		echo $this->Form->input('Municipality');
 		echo $this->Form->input('Processcomponent');
 		echo $this->Form->input('Review');
