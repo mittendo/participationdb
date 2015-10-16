@@ -49,6 +49,12 @@ $cakeDescription = __d('cake_dev', 'TurnKey CakePHP');
 
 </head>
 <body>
+<?php
+    $user = $this->Session->read('Auth.User');
+    if(!empty($user)) {
+        echo 'Hi ', $user['username'];
+    }
+?>
     <?php echo $this->fetch('content'); ?>
 </body>
 </html>
