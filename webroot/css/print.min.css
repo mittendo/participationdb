@@ -1,0 +1,4 @@
+@media print{
+/* Style sheet print */
+body{font-family:Arial,Verdana,sans-serif;font-size:75%;color:#000!important;line-height:125%}.print{display:block;clear:both}a.hidden,#header,#headimage,#headimage_sub,#main_navigation,#left_column,#right_column,#footer{display:none}#container{width:100%!important}#content{border-top:none}#center_column{margin:0;width:100%!important}address{font-style:normal}ul{list-style-type:square}#breadcrumb{margin-bottom:10px;padding:10px 0;font-size:90%;font-weight:700;border-top:1px dotted #000;border-bottom:1px dotted #000}#breadcrumb ul{margin:0;list-style-type:none}#breadcrumb ul li{display:inline;font-weight:400}#breadcrumb a{background-image:none;padding-left:2px;padding-right:2px}table.form{margin-bottom:25px}table.form td{padding:2px 0}table.form textarea,table.form select,table.form input,form textarea,form select,form input{font-size:101%;padding:1px;border:1px solid #000}table.form input.none{border:none}
+}

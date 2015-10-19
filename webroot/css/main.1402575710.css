@@ -1,0 +1,141 @@
+/* defintion of mainmenu-colors */
+#main_navigation {
+  background-color:white;
+  display:block;
+  float:left;
+  font-size:13px;
+  margin-left:4px;
+  margin-top:65px;
+  padding-left:8px;
+}
+
+#main_navigation li {
+  padding:0;
+}
+
+#main_navigation li a {
+  background:none repeat scroll 0 0 #c7c7c7;
+  color:#004D67;
+  display:block;
+  padding:10px 11px;
+  text-decoration:none;
+}
+
+#main_navigation li a:hover {
+      background-color: #e4e4e4;
+}
+
+#main_navigation li a.current {
+      padding-bottom:18px;
+      background-color: #e4e4e4;
+      color: #e84c20;
+}
+
+
+/* Button für Suche in rot 
+input.button {
+  background-color: #e84c20;
+} */ 
+
+/* definition of submenue-colors */
+
+#sub_navigation .site-logo {
+    background-color: #e4e4e4;
+}
+
+#sub_navigation {
+    background-color:white;
+}
+
+#sub_navigation h2 {
+  background-color:white !important;
+}
+
+#sub_navigation ul {
+    background-color:white;
+    border-top:2px solid #00263f;
+}
+
+#sub_navigation ul li {
+    border-bottom:2px solid #00263f;
+}
+
+#sub_navigation ul li.current {
+   background-color: #e84c20;
+   padding-bottom: 0px;
+}
+
+#sub_navigation ul li.current_nosub {
+   background-color: #e84c20;
+   padding-bottom: 0px;
+}
+
+#sub_navigation_content ul li {
+    background-color: #e4e4e4 !important;
+}
+
+#sub_navigation_content li {
+    font-size:95%;
+    background-color:#e4e4e4;
+    border-top: 1px solid #7C98B0 !important; 
+    margin-left:7px;
+    border-bottom: none !important; 
+}
+
+#sub_navigation_content li a {
+    font-weight:normal !important;
+    text-decoration:none;
+    display:block;
+    padding:3px 3px 3px 10px !important;
+    color: #09455D !important;
+}
+
+#sub_navigation_content li a:hover {
+    color: white !important;
+}
+
+#content {
+    border-top-color:#e4e4e4;
+}
+
+#sub_navigation ul li.current2.firstchild {
+    border-top: 1px solid #e4e4e4 !important;
+}
+
+#sub_navigation_content li.current2 {
+    background-color:#e4e4e4;
+}
+
+#sub_navigation_content li.current2 ul {
+    background: white;
+}
+
+#sub_navigation ul li.current a {
+    color: white;
+}
+
+#sub_navigation ul li.current_nosub a {
+    color: white;
+}
+
+.box_body_individuell {
+    display:block;
+    padding:10px 5px 10px 13px;
+    background-color:#e4e4e4;
+}
+
+.box_title_individuell {
+    background-color:#c7c7c7;
+    padding:9px 9px 9px 13px;
+}
+
+.box_title_individuell h2 {
+    font-size:100%;
+    text-transform:uppercase;
+}
+
+.box_body_individuell ul > li > a {
+    display:block;
+}
+
+
