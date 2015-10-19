@@ -23,7 +23,7 @@
 /**
  * Set default Language
  */
-Configure::write('Config.language', 'fra');
+Configure::write('Config.language', 'deu');
 
 /**
  * CakePHP Debug Level:

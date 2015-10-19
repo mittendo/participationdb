@@ -1,0 +1,791 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Partizidb 0.1\n"
+"POT-Creation-Date: 2015-10-16 18:24+0000\n"
+"PO-Revision-Date: 2015-10-19 15:05+0100\n"
+"Last-Translator: Volker Mittendorf <volkermittendorf@online.de>\n"
+"Language-Team: IfPD <mittendo@uni-wuppertal.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Controller/GroupsController.php:29;61;87
+msgid "Invalid group"
+msgstr "Ungültige Gruppe"
+
+#: Controller/GroupsController.php:44;65
+msgid "The group has been saved"
+msgstr "Die Gruppe wurde gespeichert"
+
+#: Controller/GroupsController.php:47;68
+msgid "The group could not be saved. Please, try again."
+msgstr "Die Gruppe konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/GroupsController.php:91
+msgid "Group deleted"
+msgstr "Die Gruppe wurde gelöscht"
+
+#: Controller/GroupsController.php:94
+msgid "Group was not deleted"
+msgstr "Die Gruppe wurde nicht gelöscht"
+
+#: Controller/MunicipalitiesController.php:29;61;87
+msgid "Invalid municipality"
+msgstr "Ungültiger Ort"
+
+#: Controller/MunicipalitiesController.php:44;65
+msgid "The municipality has been saved"
+msgstr "Ort wurde gespeichert"
+
+#: Controller/MunicipalitiesController.php:47;68
+msgid "The municipality could not be saved. Please, try again."
+msgstr "Der Ort konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/MunicipalitiesController.php:91
+msgid "Municipality deleted"
+msgstr "Ort gelöscht"
+
+#: Controller/MunicipalitiesController.php:94
+msgid "Municipality was not deleted"
+msgstr "Ort wurde nicht gelöscht"
+
+#: Controller/ProcesscomponentsController.php:29;61;87
+msgid "Invalid processcomponent"
+msgstr "Ungültige Beteiligungskomponente"
+
+#: Controller/ProcesscomponentsController.php:44;65
+msgid "The processcomponent has been saved"
+msgstr "Die Beteiligungskomponente wurde gespeichert"
+
+#: Controller/ProcesscomponentsController.php:47;68
+msgid "The processcomponent could not be saved. Please, try again."
+msgstr "Die Beteiligungskomponente konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/ProcesscomponentsController.php:91
+msgid "Processcomponent deleted"
+msgstr "Beteiligungskomponente gelöscht"
+
+#: Controller/ProcesscomponentsController.php:94
+msgid "Processcomponent was not deleted"
+msgstr "Beteiligungskompomente wurde nicht gelöscht"
+
+#: Controller/RealisationsController.php:34;70;100
+msgid "Invalid realisation"
+msgstr "Ungültiger Fall"
+
+#: Controller/RealisationsController.php:49;74
+msgid "The realisation has been saved"
+msgstr "Der Fall wurde gespeichert"
+
+#: Controller/RealisationsController.php:52;77
+msgid "The realisation could not be saved. Please, try again."
+msgstr "Der Fall konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/RealisationsController.php:104
+msgid "Realisation deleted"
+msgstr "Fall gelöscht"
+
+#: Controller/RealisationsController.php:107
+msgid "Realisation was not deleted"
+msgstr "Der Fall wurde nicht gelöscht"
+
+#: Controller/ReviewsController.php:34;66;92
+msgid "Invalid review"
+msgstr "Ungültige Bewertung"
+
+#: Controller/ReviewsController.php:49;70
+msgid "The review has been saved"
+msgstr "Bewertung wurde gespeichert"
+
+#: Controller/ReviewsController.php:52;73
+msgid "The review could not be saved. Please, try again."
+msgstr "Die Bewertung konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/ReviewsController.php:96
+msgid "Review deleted"
+msgstr "Bewertung gelöscht"
+
+#: Controller/ReviewsController.php:99
+msgid "Review was not deleted"
+msgstr "Bewewrtung wurde nicht gelöscht"
+
+#: Controller/UsersController.php:31;65;93
+msgid "Invalid user"
+msgstr "Ungültiger Benutzername"
+
+#: Controller/UsersController.php:46;69
+msgid "The user has been saved"
+msgstr "Der Benutzer wurde gespeichert"
+
+#: Controller/UsersController.php:49;72
+msgid "The user could not be saved. Please, try again."
+msgstr "Der Benutzer konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/UsersController.php:97
+msgid "User deleted"
+msgstr "Benutzer gelöscht"
+
+#: Controller/UsersController.php:100
+msgid "User was not deleted"
+msgstr "Benutzer wurde nicht gelöscht"
+
+#: Controller/UsersController.php:109
+msgid "Your username or password was incorrect."
+msgstr "Ihr Benutzername oder Ihr Password waren falsch."
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr "Zu verarbeitendes Plugin"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr "Die Zugriffsrechte auf die Tabellen und Formulare (ACO-tree) der Applikation besser managen."
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr "Neue Zugriffsrechte (ACOs) auf Controllers und Actions von CakePHP hinzufügen. Löscht keine bestehenden Zugriffsregelungen (nodes) aus der Tabelle ACO. "
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr "Eine volle synchronisation der Zugriffspunkttabelle (ACO-Tabelle) durchführen. Erstellt neue Einträge (ACOs) für fehlende Controller und Actions in CakePHP. Zudem werden verwaiste Einträge gelöscht, die nicht mehr auf einen passenden Controller oder eine passende Action verweisen. "
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr "Verifiziert die Baumstruktur entweder des ACO- (Zugriffspunkte) oder des ARO-Baumes (Zugriffsresourcen, vulgo: Nutzer oder Programmackionen)."
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+msgid "The type of tree to verify"
+msgstr "Anzuzeigender Baum"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr "Einen beschädigten Baum wieder herstellen"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+msgid "The type of tree to recover"
+msgstr "Baum der wieder hergestellt werden soll"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:123
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr "<error>Plugin %s nicht gefunden oder nicht aktiviert</error>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:136
+msgid "<success>Aco Update Complete</success>"
+msgstr "<success>Aco Update komplett</success>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:181
+msgid "Deleted %s and all children"
+msgstr "%s gelöscht und alle untergeordneten Einträge"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:222
+msgid "Created Aco node: <success>%s</success>"
+msgstr "Aco Verknüpfung: <success>%s</success> erstellt"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:275
+msgid "Unable to get methods for \"%s\""
+msgstr "Methode für \"%s\" kann nicht gefunden werden"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:296
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Aco Verknüpfung: <warning>%s</warning> gelöscht"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:315
+msgid "<success>Tree is valid and strong</success>"
+msgstr "<success>Baumstruktur ist valide und robust</success>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:333
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr "Baumstruktur wurde wiederhergestellt oder Baumstruktur benötigte keine Wiederherstellung."
+
+#: Plugin/AclExtras/Lib/AclExtras.php:335
+msgid "<error>Tree recovery failed.</error>"
+msgstr "<error>Fehler beim Wiederherstellen des Baums</error>"
+
+#: View/Groups/add.ctp:4
+msgid "Add Group"
+msgstr "Eine Gruppe hinzufügen"
+
+#: View/Groups/add.ctp:9
+#: View/Groups/edit.ctp:10
+#: View/Municipalities/add.ctp:25
+#: View/Municipalities/edit.ctp:26
+#: View/Processcomponents/add.ctp:9
+#: View/Processcomponents/edit.ctp:10
+#: View/Realisations/add.ctp:32
+#: View/Realisations/edit.ctp:33
+#: View/Reviews/add.ctp:9
+#: View/Reviews/edit.ctp:10
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+msgid "Submit"
+msgstr "Befehl ausführen"
+
+#: View/Groups/add.ctp:12
+#: View/Groups/edit.ctp:13
+#: View/Groups/index.ctp:9;40
+#: View/Groups/view.ctp:27;48
+#: View/Municipalities/add.ctp:28
+#: View/Municipalities/edit.ctp:29
+#: View/Municipalities/index.ctp:23;68
+#: View/Municipalities/view.ctp:97
+#: View/Processcomponents/add.ctp:12
+#: View/Processcomponents/edit.ctp:13
+#: View/Processcomponents/index.ctp:7;36
+#: View/Processcomponents/view.ctp:17
+#: View/Realisations/add.ctp:35
+#: View/Realisations/edit.ctp:36
+#: View/Realisations/index.ctp:27;76
+#: View/Realisations/view.ctp:117;154;201;232
+#: View/Reviews/add.ctp:12
+#: View/Reviews/edit.ctp:13
+#: View/Reviews/index.ctp:7;36
+#: View/Reviews/view.ctp:17
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/index.ctp:11;46
+#: View/Users/view.ctp:37
+msgid "Actions"
+msgstr "Aktionen"
+
+#: View/Groups/add.ctp:15
+#: View/Groups/edit.ctp:17
+#: View/Groups/view.ctp:31
+#: View/Users/add.ctp:18
+#: View/Users/edit.ctp:20
+#: View/Users/index.ctp:49
+#: View/Users/view.ctp:43
+msgid "List Groups"
+msgstr "Gruppen auflisten"
+
+#: View/Groups/add.ctp:16
+#: View/Groups/edit.ctp:18
+#: View/Groups/index.ctp:43
+#: View/Groups/view.ctp:33
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr "Benutzer auflisten"
+
+#: View/Groups/add.ctp:17
+#: View/Groups/edit.ctp:19
+#: View/Groups/index.ctp:44
+#: View/Groups/view.ctp:34;72
+#: View/Users/index.ctp:48
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr "Neuer Benutzer"
+
+#: View/Groups/edit.ctp:4
+#: View/Groups/view.ctp:29
+msgid "Edit Group"
+msgstr "Gruppe bearbeiten"
+
+#: View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:20
+#: View/Groups/view.ctp:63
+#: View/Municipalities/edit.ctp:32
+#: View/Municipalities/index.ctp:48
+#: View/Processcomponents/edit.ctp:16
+#: View/Processcomponents/index.ctp:16
+#: View/Realisations/edit.ctp:39
+#: View/Realisations/index.ctp:56
+#: View/Realisations/view.ctp:181;212;243
+#: View/Reviews/edit.ctp:16
+#: View/Reviews/index.ctp:16
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+msgid "Delete"
+msgstr "Löschen"
+
+#: View/Groups/edit.ctp:16
+#: View/Groups/index.ctp:20
+#: View/Groups/view.ctp:30;63
+#: View/Municipalities/edit.ctp:32
+#: View/Municipalities/index.ctp:48
+#: View/Municipalities/view.ctp:100
+#: View/Processcomponents/edit.ctp:16
+#: View/Processcomponents/index.ctp:16
+#: View/Processcomponents/view.ctp:20
+#: View/Realisations/edit.ctp:39
+#: View/Realisations/index.ctp:56
+#: View/Realisations/view.ctp:120;181;212;243
+#: View/Reviews/edit.ctp:16
+#: View/Reviews/index.ctp:16
+#: View/Reviews/view.ctp:20
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+#: View/Users/view.ctp:40
+msgid "Are you sure you want to delete # %s?"
+msgstr "Sind Sie sicher, dass Sie die Gruppe # %s löschen wollen?"
+
+#: View/Groups/index.ctp:2
+msgid "Groups"
+msgstr "Gruppen"
+
+#: View/Groups/index.ctp:18
+#: View/Groups/view.ctp:61
+#: View/Municipalities/index.ctp:46
+#: View/Processcomponents/index.ctp:14
+#: View/Realisations/index.ctp:54
+#: View/Realisations/view.ctp:179;210;241
+#: View/Reviews/index.ctp:14
+#: View/Users/index.ctp:24
+msgid "View"
+msgstr "Ansicht"
+
+#: View/Groups/index.ctp:19
+#: View/Groups/view.ctp:62
+#: View/Municipalities/index.ctp:47
+#: View/Processcomponents/index.ctp:15
+#: View/Realisations/index.ctp:55
+#: View/Realisations/view.ctp:180;211;242
+#: View/Reviews/index.ctp:15
+#: View/Users/index.ctp:25
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: View/Groups/index.ctp:28
+#: View/Municipalities/index.ctp:56
+#: View/Processcomponents/index.ctp:24
+#: View/Realisations/index.ctp:64
+#: View/Reviews/index.ctp:24
+#: View/Users/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} insgesamt, beginne bei Eintrag {:start}, ende bei Eintrag {:end}"
+
+#: View/Groups/index.ctp:33
+#: View/Municipalities/index.ctp:61
+#: View/Processcomponents/index.ctp:29
+#: View/Realisations/index.ctp:69
+#: View/Reviews/index.ctp:29
+#: View/Users/index.ctp:39
+msgid "previous"
+msgstr "Zurück"
+
+#: View/Groups/index.ctp:35
+#: View/Municipalities/index.ctp:63
+#: View/Processcomponents/index.ctp:31
+#: View/Realisations/index.ctp:71
+#: View/Reviews/index.ctp:31
+#: View/Users/index.ctp:41
+msgid "next"
+msgstr "Weiter"
+
+#: View/Groups/index.ctp:42
+#: View/Groups/view.ctp:32
+#: View/Users/add.ctp:19
+#: View/Users/edit.ctp:21
+#: View/Users/index.ctp:50
+#: View/Users/view.ctp:44
+msgid "New Group"
+msgstr "Neue Gruppe"
+
+#: View/Groups/view.ctp:2
+#: View/Users/view.ctp:19
+msgid "Group"
+msgstr "Gruppe"
+
+#: View/Groups/view.ctp:4;42
+#: View/Municipalities/view.ctp:4
+#: View/Processcomponents/view.ctp:4
+#: View/Realisations/view.ctp:4;136;199;230
+#: View/Reviews/view.ctp:4
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr "ID"
+
+#: View/Groups/view.ctp:9
+#: View/Municipalities/view.ctp:39
+#: View/Processcomponents/view.ctp:9
+#: View/Realisations/view.ctp:19;143;200
+msgid "Name"
+msgstr "Name"
+
+#: View/Groups/view.ctp:14;46
+#: View/Users/view.ctp:24
+msgid "Created"
+msgstr "Erstellt"
+
+#: View/Groups/view.ctp:19;47
+#: View/Users/view.ctp:29
+msgid "Modified"
+msgstr "Geändert"
+
+#: View/Groups/view.ctp:30
+msgid "Delete Group"
+msgstr "Gruppe löschen"
+
+#: View/Groups/view.ctp:38
+msgid "Related Users"
+msgstr "Zugehörige Benutzer"
+
+#: View/Groups/view.ctp:43
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr "Benutzername"
+
+#: View/Groups/view.ctp:44
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr "Passwort"
+
+#: View/Groups/view.ctp:45
+msgid "Group Id"
+msgstr "Gruppenkennung"
+
+#: View/Municipalities/add.ctp:4
+msgid "Add Municipality"
+msgstr "Ort hinzufügen"
+
+#: View/Municipalities/add.ctp:31
+#: View/Municipalities/edit.ctp:33
+#: View/Municipalities/view.ctp:101
+#: View/Realisations/add.ctp:39
+#: View/Realisations/edit.ctp:41
+#: View/Realisations/index.ctp:79
+#: View/Realisations/view.ctp:123
+msgid "List Municipalities"
+msgstr "Orte auflisten"
+
+#: View/Municipalities/edit.ctp:4
+#: View/Municipalities/view.ctp:99
+msgid "Edit Municipality"
+msgstr "Ort bearbeiten"
+
+#: View/Municipalities/index.ctp:2
+msgid "Municipalities"
+msgstr "Orte"
+
+#: View/Municipalities/index.ctp:70
+#: View/Municipalities/view.ctp:102
+#: View/Realisations/add.ctp:40
+#: View/Realisations/edit.ctp:42
+#: View/Realisations/index.ctp:80
+#: View/Realisations/view.ctp:124;190
+msgid "New Municipality"
+msgstr "Neuer Ort"
+
+#: View/Municipalities/view.ctp:2
+#: View/Realisations/view.ctp:9
+msgid "Municipality"
+msgstr "Ort"
+
+#: View/Municipalities/view.ctp:9
+#: View/Realisations/view.ctp:137
+msgid "Land No"
+msgstr "Land Nr."
+
+#: View/Municipalities/view.ctp:14
+#: View/Realisations/view.ctp:14;138
+msgid "Land"
+msgstr "Land"
+
+#: View/Municipalities/view.ctp:19
+#: View/Realisations/view.ctp:139
+msgid "Type Of Set"
+msgstr "Art der Menge"
+
+#: View/Municipalities/view.ctp:24
+#: View/Realisations/view.ctp:140
+msgid "Text Signature"
+msgstr "Textsignatur"
+
+#: View/Municipalities/view.ctp:29
+#: View/Realisations/view.ctp:141
+msgid "Type Of Municipality"
+msgstr "Ortstyp"
+
+#: View/Municipalities/view.ctp:34
+#: View/Realisations/view.ctp:142
+msgid "Region No"
+msgstr "Regionalschlüssel"
+
+#: View/Municipalities/view.ctp:44
+#: View/Realisations/view.ctp:144
+msgid "Seat Of Authority"
+msgstr "Verwaltungssitz"
+
+#: View/Municipalities/view.ctp:49
+#: View/Realisations/view.ctp:145
+msgid "Street"
+msgstr "Straße"
+
+#: View/Municipalities/view.ctp:54
+#: View/Realisations/view.ctp:146
+msgid "PLZ"
+msgstr "PLZ"
+
+#: View/Municipalities/view.ctp:59
+#: View/Realisations/view.ctp:147
+msgid "Location"
+msgstr "Ortsname"
+
+#: View/Municipalities/view.ctp:64
+#: View/Realisations/view.ctp:148
+msgid "Area"
+msgstr "Fläche"
+
+#: View/Municipalities/view.ctp:69
+#: View/Realisations/view.ctp:99;149
+msgid "Date"
+msgstr "Datum"
+
+#: View/Municipalities/view.ctp:74
+#: View/Realisations/view.ctp:150
+msgid "Inhabitants"
+msgstr "Einwohner"
+
+#: View/Municipalities/view.ctp:79
+#: View/Realisations/view.ctp:151
+msgid "Male"
+msgstr "männlich"
+
+#: View/Municipalities/view.ctp:84
+#: View/Realisations/view.ctp:152
+msgid "Female"
+msgstr "weiblich"
+
+#: View/Municipalities/view.ctp:89
+#: View/Realisations/view.ctp:153
+msgid "Density Of Inhabitants"
+msgstr "Einwohnerdichte"
+
+#: View/Municipalities/view.ctp:100
+msgid "Delete Municipality"
+msgstr "Ort löschen"
+
+#: View/Processcomponents/add.ctp:4
+msgid "Add Processcomponent"
+msgstr "Beteiligungskomponente hinzufügen"
+
+#: View/Processcomponents/add.ctp:15
+#: View/Processcomponents/edit.ctp:17
+#: View/Processcomponents/view.ctp:21
+#: View/Realisations/add.ctp:41
+#: View/Realisations/edit.ctp:43
+#: View/Realisations/index.ctp:81
+#: View/Realisations/view.ctp:125
+msgid "List Processcomponents"
+msgstr "Beteiligungskomponenten auflisten"
+
+#: View/Processcomponents/edit.ctp:4
+#: View/Processcomponents/view.ctp:19
+msgid "Edit Processcomponent"
+msgstr "Beteiligungskomponente bearbeiten"
+
+#: View/Processcomponents/index.ctp:2
+msgid "Processcomponents"
+msgstr "Beteiligungskomponenten"
+
+#: View/Processcomponents/index.ctp:38
+#: View/Processcomponents/view.ctp:22
+#: View/Realisations/add.ctp:42
+#: View/Realisations/edit.ctp:44
+#: View/Realisations/index.ctp:82
+#: View/Realisations/view.ctp:126;221
+msgid "New Processcomponent"
+msgstr "Neue Beteiligungskomponente"
+
+#: View/Processcomponents/view.ctp:2
+msgid "Processcomponent"
+msgstr "Beteiligungskomponente"
+
+#: View/Processcomponents/view.ctp:20
+msgid "Delete Processcomponent"
+msgstr "Beteiligungskomponente löschen"
+
+#: View/Realisations/add.ctp:4
+msgid "Add Realisation"
+msgstr "Fall hinzufügen"
+
+#: View/Realisations/add.ctp:38
+#: View/Realisations/edit.ctp:40
+#: View/Realisations/view.ctp:121
+msgid "List Realisations"
+msgstr "Fälle auflisten"
+
+#: View/Realisations/add.ctp:43
+#: View/Realisations/edit.ctp:45
+#: View/Realisations/index.ctp:83
+#: View/Realisations/view.ctp:127
+#: View/Reviews/add.ctp:15
+#: View/Reviews/edit.ctp:17
+#: View/Reviews/view.ctp:21
+msgid "List Reviews"
+msgstr "Bewertungen auflisten"
+
+#: View/Realisations/add.ctp:44
+#: View/Realisations/edit.ctp:46
+#: View/Realisations/index.ctp:84
+#: View/Realisations/view.ctp:128;252
+#: View/Reviews/index.ctp:38
+#: View/Reviews/view.ctp:22
+msgid "New Review"
+msgstr "Neue Bewertung"
+
+#: View/Realisations/edit.ctp:4
+#: View/Realisations/view.ctp:119
+msgid "Edit Realisation"
+msgstr "Fall bearbeiten"
+
+#: View/Realisations/index.ctp:2
+msgid "Realisations"
+msgstr "Fälle"
+
+#: View/Realisations/index.ctp:78
+#: View/Realisations/view.ctp:122
+msgid "New Realisation"
+msgstr "Neuer Fall"
+
+#: View/Realisations/view.ctp:2
+msgid "Realisation"
+msgstr "Fall"
+
+#: View/Realisations/view.ctp:24
+msgid "Initiating Actor"
+msgstr "Einleitungsakteur"
+
+#: View/Realisations/view.ctp:29
+msgid "Demand Of Participation"
+msgstr "Beteiligungsnachfrage"
+
+#: View/Realisations/view.ctp:34
+msgid "Supplier Of Participation"
+msgstr "Anbieter der Beteiligung"
+
+#: View/Realisations/view.ctp:39
+msgid "Comment On Initiating Process"
+msgstr "Kommentar zum Einleitungsprozess"
+
+#: View/Realisations/view.ctp:44
+msgid "Contingency Of Decision"
+msgstr "Entscheidungsoffenheit"
+
+#: View/Realisations/view.ctp:49
+msgid "Echt"
+msgstr "Echt"
+
+#: View/Realisations/view.ctp:54
+msgid "Unecht"
+msgstr "Unecht"
+
+#: View/Realisations/view.ctp:59
+msgid "Description Of Process"
+msgstr "Prozessbeschreibung"
+
+#: View/Realisations/view.ctp:64
+msgid "Invitation"
+msgstr "Einladung"
+
+#: View/Realisations/view.ctp:69
+msgid "Citizen Information"
+msgstr "Bürgerinformation"
+
+#: View/Realisations/view.ctp:74
+msgid "Participation In Conflicts"
+msgstr "Konfliktbeteiligung"
+
+#: View/Realisations/view.ctp:79
+msgid "Participation In Decisionmaking"
+msgstr "Entscheidungsbeteiligung"
+
+#: View/Realisations/view.ctp:84
+msgid "Community Service"
+msgstr "Bürgerengagement"
+
+#: View/Realisations/view.ctp:89
+msgid "Conflict Of Values"
+msgstr "Wertkonflikt"
+
+#: View/Realisations/view.ctp:94
+msgid "Conflict Of Interests"
+msgstr "Interessenkonflikt"
+
+#: View/Realisations/view.ctp:104
+msgid "URL"
+msgstr "URL"
+
+#: View/Realisations/view.ctp:109
+msgid "U"
+msgstr "U"
+
+#: View/Realisations/view.ctp:120
+msgid "Delete Realisation"
+msgstr "Fall löschen"
+
+#: View/Realisations/view.ctp:132
+msgid "Related Municipalities"
+msgstr "Zugehörige Orte"
+
+#: View/Realisations/view.ctp:195
+msgid "Related Processcomponents"
+msgstr "Zugehörige Beteiligungskomponenten"
+
+#: View/Realisations/view.ctp:226
+msgid "Related Reviews"
+msgstr "Zugehörige Bewertungen"
+
+#: View/Realisations/view.ctp:231
+#: View/Reviews/view.ctp:2;9
+msgid "Review"
+msgstr "Bewertung"
+
+#: View/Reviews/add.ctp:4
+msgid "Add Review"
+msgstr "Bewertung hinzufügen"
+
+#: View/Reviews/edit.ctp:4
+#: View/Reviews/view.ctp:19
+msgid "Edit Review"
+msgstr "Bewertung bearbeiten"
+
+#: View/Reviews/index.ctp:2
+msgid "Reviews"
+msgstr "Bewertungen"
+
+#: View/Reviews/view.ctp:20
+msgid "Delete Review"
+msgstr "Bewertung löschen"
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr "Füge Benutzer hinzu"
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:39
+msgid "Edit User"
+msgstr "Ändere Benutzer"
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr "Benutzer"
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr "Benutzer"
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr "Lösche Benutzer"
+
+#: Model/Group.php:validation
+#: for field name
+#: Model/Processcomponent.php:validation
+#: Model/User.php:validation
+#: username;validation password
+msgid "notempty"
+msgstr "nicht leer"
+
+#: Model/User.php:validation
+#: for field group_id
+msgid "numeric"
+msgstr "numerisch"
+
