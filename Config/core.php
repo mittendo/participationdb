@@ -21,6 +21,11 @@
  */
 
 /**
+ * Set default Language
+ */
+Configure::write('Config.language', 'fra');
+
+/**
  * CakePHP Debug Level:
  *
  * Production Mode:
