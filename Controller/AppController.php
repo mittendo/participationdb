@@ -45,6 +45,9 @@ class AppController extends Controller {
     public $helpers = array('Html', 'Form', 'Session');
 
     public function beforeFilter() {
+         if ($this->Session->check('Config.language')) {
+            Configure::write('Config.language', $this->Session->read('Config.language'));
+        }
         //Configure AuthComponent
         $this->Auth->loginAction = array(
           'controller' => 'users',
