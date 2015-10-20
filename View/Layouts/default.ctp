@@ -55,7 +55,7 @@ $cakeDescription = __d('cake_dev', 'Datenbank B&uuml;rgerbeteiligung');
 <body>
     
     
-<img src="/fileadmin/static/images/logo_print.gif" class="print" alt="" style="margin-bottom:20px;" />
+<img src="/img/logo_print.gif" class="print" alt="" style="margin-bottom:20px;" />
 
 <!-- Container um komplette Seite herum -->
 <div id="container">
@@ -63,7 +63,7 @@ $cakeDescription = __d('cake_dev', 'Datenbank B&uuml;rgerbeteiligung');
 
   <div id="headimage_sub">
     <a href="http://www.uni-wuppertal.de/" class="none" title="Zurück zur Startseite">
-      <img src="http://www.buergerbeteiligung.uni-wuppertal.de/fileadmin/static/images/logo.gif/fileadmin/static/images/logo.gif" class="logo" alt="Logo der Bergischen Universität Wuppertal" />
+      <img src="/img/logo.gif" class="logo" alt="Logo der Bergischen Universität Wuppertal" />
     </a>
     <a name="zur_navigation" class="none"><!-- kein Inhalt --></a>
     <div id="navigation_header"><ul id="main_navigation"><li class="n1"><dfn>1</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/ueber-uns.html" title="&Uuml;BER UNS" accesskey="U">ÜBER UNS</a></li><li class="n2"><dfn>2</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/buergerbeteiligung.html" title="BÜRGERBETEILIGUNG" accesskey="B">BÜRGERBETEILIGUNG</a></li><li class="n3"><dfn>3</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/demokratie-und-partizipationsforschung.html" title="DEMOKRATIE- UND PARTIZIPATIONSFORSCHUNG" accesskey="D">DEMOKRATIE- UND PARTIZIPATIONSFORSCHUNG</a></li><li class="n4"><dfn>4</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/lehre.html" title="LEHRE" accesskey="L">LEHRE</a></li><li class="n5"><dfn>5</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/datenbank-buergerbegehren.html" title="DATENBANK BÜRGERBEGEHREN" accesskey="A">DATENBANK BÜRGERBEGEHREN</a></li></ul></div>
