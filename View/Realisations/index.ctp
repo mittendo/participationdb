@@ -29,7 +29,7 @@
 	<?php foreach ($realisations as $realisation): ?>
 	<tr>
 		<td><?php echo h($realisation['Realisation']['id']); ?>&nbsp;</td>
-		<td><?php echo h($realisation['Realisation']['municipality']); ?>&nbsp;</td>
+		<td><?php echo h($realisation['Realisation']['main_municipality']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['land']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['name']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['initiating_actor']); ?>&nbsp;</td>
