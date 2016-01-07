@@ -14,6 +14,12 @@ class RealisationTest extends CakeTestCase {
  */
 	public $fixtures = array(
 		'app.realisation',
+		'app.stakeholder',
+		'app.stakeholders_realisation',
+		'app.energy_sector',
+		'app.energy_sectors_realisation',
+		'app.energypolicylink',
+		'app.energypolicylinks_realisation',
 		'app.municipality',
 		'app.municipalities_realisation',
 		'app.processcomponent',

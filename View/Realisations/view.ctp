@@ -6,7 +6,7 @@
 			<?php echo h($realisation['Realisation']['id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Municipality'); ?></dt>
+		<dt><?php echo __('Main Municipality'); ?></dt>
 		<dd>
 			<?php echo h($realisation['Realisation']['main_municipality']); ?>
 			&nbsp;
@@ -76,11 +76,6 @@
 			<?php echo h($realisation['Realisation']['participation_in_conflicts']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Participation In Decisionmaking'); ?></dt>
-		<dd>
-			<?php echo h($realisation['Realisation']['participation_in_decisionmaking']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Community Service'); ?></dt>
 		<dd>
 			<?php echo h($realisation['Realisation']['community_service']); ?>
@@ -106,9 +101,134 @@
 			<?php echo h($realisation['Realisation']['URL']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('U'); ?></dt>
+		<dt><?php echo __('Created'); ?></dt>
 		<dd>
-			<?php echo h($realisation['Realisation']['U']); ?>
+			<?php echo h($realisation['Realisation']['created']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Modified'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['modified']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Status'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['status']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Bottomup Topdown'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['bottomup_topdown']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Regional Relation'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['regional_relation']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Sektor'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['sektor']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Issue Energy'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['issue_energy']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Policy'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['policy']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Short Description'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['short_description']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Success'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['success']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Social Innovation Relation'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['social_innovation_relation']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Jahr'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['Jahr']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('PLZ'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['PLZ']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Inhabitants Classified'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['inhabitants_classified']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Start Date'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['start_date']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('End Date'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['end_date']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Target Of Participation'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['target_of_participation']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Target Of Participation Description'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['target_of_participation_description']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Relation Energy Change Policy'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['relation_energy_change_policy']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Regional Scope'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['regional_scope']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Regional Scope Description'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['regional_scope_description']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Publicity Scope'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['publicity_scope']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Conflict Type'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['conflict_type']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Conflict Aspect Other'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['conflict_aspect_other']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Escalation Degree'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['escalation_degree']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Stakeholder'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($realisation['Stakeholder']['name'], array('controller' => 'stakeholders', 'action' => 'view', $realisation['Stakeholder']['id'])); ?>
 			&nbsp;
 		</dd>
 	</dl>
@@ -120,6 +240,12 @@
 		<li><?php echo $this->Form->postLink(__('Delete Realisation'), array('action' => 'delete', $realisation['Realisation']['id']), null, __('Are you sure you want to delete # %s?', $realisation['Realisation']['id'])); ?> </li>
 		<li><?php echo $this->Html->link(__('List Realisations'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Realisation'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Stakeholders'), array('controller' => 'stakeholders', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Stakeholder'), array('controller' => 'stakeholders', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Energy Sectors'), array('controller' => 'energy_sectors', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Energy Sector'), array('controller' => 'energy_sectors', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Energypolicylinks'), array('controller' => 'energypolicylinks', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Energypolicylink'), array('controller' => 'energypolicylinks', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Municipalities'), array('controller' => 'municipalities', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Municipality'), array('controller' => 'municipalities', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Processcomponents'), array('controller' => 'processcomponents', 'action' => 'index')); ?> </li>
@@ -127,6 +253,76 @@
 		<li><?php echo $this->Html->link(__('List Reviews'), array('controller' => 'reviews', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Review'), array('controller' => 'reviews', 'action' => 'add')); ?> </li>
 	</ul>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Energy Sectors'); ?></h3>
+	<?php if (!empty($realisation['EnergySector'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Name'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($realisation['EnergySector'] as $energySector): ?>
+		<tr>
+			<td><?php echo $energySector['id']; ?></td>
+			<td><?php echo $energySector['name']; ?></td>
+			<td><?php echo $energySector['created']; ?></td>
+			<td><?php echo $energySector['modified']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'energy_sectors', 'action' => 'view', $energySector['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'energy_sectors', 'action' => 'edit', $energySector['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'energy_sectors', 'action' => 'delete', $energySector['id']), null, __('Are you sure you want to delete # %s?', $energySector['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Energy Sector'), array('controller' => 'energy_sectors', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Energypolicylinks'); ?></h3>
+	<?php if (!empty($realisation['Energypolicylink'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Name'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($realisation['Energypolicylink'] as $energypolicylink): ?>
+		<tr>
+			<td><?php echo $energypolicylink['id']; ?></td>
+			<td><?php echo $energypolicylink['name']; ?></td>
+			<td><?php echo $energypolicylink['created']; ?></td>
+			<td><?php echo $energypolicylink['modified']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'energypolicylinks', 'action' => 'view', $energypolicylink['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'energypolicylinks', 'action' => 'edit', $energypolicylink['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'energypolicylinks', 'action' => 'delete', $energypolicylink['id']), null, __('Are you sure you want to delete # %s?', $energypolicylink['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Energypolicylink'), array('controller' => 'energypolicylinks', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
 </div>
 <div class="related">
 	<h3><?php echo __('Related Municipalities'); ?></h3>
@@ -151,6 +347,8 @@
 		<th><?php echo __('Male'); ?></th>
 		<th><?php echo __('Female'); ?></th>
 		<th><?php echo __('Density Of Inhabitants'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
@@ -175,6 +373,8 @@
 			<td><?php echo $municipality['male']; ?></td>
 			<td><?php echo $municipality['female']; ?></td>
 			<td><?php echo $municipality['density_of_inhabitants']; ?></td>
+			<td><?php echo $municipality['created']; ?></td>
+			<td><?php echo $municipality['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'municipalities', 'action' => 'view', $municipality['id'])); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'municipalities', 'action' => 'edit', $municipality['id'])); ?>
@@ -198,6 +398,8 @@
 	<tr>
 		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Name'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
@@ -206,6 +408,8 @@
 		<tr>
 			<td><?php echo $processcomponent['id']; ?></td>
 			<td><?php echo $processcomponent['name']; ?></td>
+			<td><?php echo $processcomponent['created']; ?></td>
+			<td><?php echo $processcomponent['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'processcomponents', 'action' => 'view', $processcomponent['id'])); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'processcomponents', 'action' => 'edit', $processcomponent['id'])); ?>
@@ -229,6 +433,8 @@
 	<tr>
 		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Review'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
@@ -237,6 +443,8 @@
 		<tr>
 			<td><?php echo $review['id']; ?></td>
 			<td><?php echo $review['review']; ?></td>
+			<td><?php echo $review['created']; ?></td>
+			<td><?php echo $review['modified']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'reviews', 'action' => 'view', $review['id'])); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'reviews', 'action' => 'edit', $review['id'])); ?>
@@ -250,6 +458,39 @@
 	<div class="actions">
 		<ul>
 			<li><?php echo $this->Html->link(__('New Review'), array('controller' => 'reviews', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Stakeholders'); ?></h3>
+	<?php if (!empty($realisation['Stakeholder'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Name'); ?></th>
+		<th><?php echo __('Type'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($realisation['Stakeholder'] as $stakeholder): ?>
+		<tr>
+			<td><?php echo $stakeholder['id']; ?></td>
+			<td><?php echo $stakeholder['name']; ?></td>
+			<td><?php echo $stakeholder['type']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'stakeholders', 'action' => 'view', $stakeholder['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'stakeholders', 'action' => 'edit', $stakeholder['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'stakeholders', 'action' => 'delete', $stakeholder['id']), null, __('Are you sure you want to delete # %s?', $stakeholder['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Stakeholder'), array('controller' => 'stakeholders', 'action' => 'add')); ?> </li>
 		</ul>
 	</div>
 </div>

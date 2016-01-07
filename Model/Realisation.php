@@ -3,14 +3,40 @@ App::uses('AppModel', 'Model');
 /**
  * Realisation Model
  *
+ * @property Stakeholder $Stakeholder
+ * @property EnergySector $EnergySector
+ * @property Energypolicylink $Energypolicylink
  * @property Municipality $Municipality
  * @property Processcomponent $Processcomponent
  * @property Review $Review
+ * @property Stakeholder $Stakeholder
  */
 class Realisation extends AppModel {
 
+/**
+ * Display field
+ *
+ * @var string
+ */
+	public $displayField = 'name';
+
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'Stakeholder' => array(
+			'className' => 'Stakeholder',
+			'foreignKey' => 'stakeholder_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
 
 /**
  * hasAndBelongsToMany associations
@@ -18,6 +44,36 @@ class Realisation extends AppModel {
  * @var array
  */
 	public $hasAndBelongsToMany = array(
+		'EnergySector' => array(
+			'className' => 'EnergySector',
+			'joinTable' => 'energy_sectors_realisations',
+			'foreignKey' => 'realisation_id',
+			'associationForeignKey' => 'energy_sector_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
+		'Energypolicylink' => array(
+			'className' => 'Energypolicylink',
+			'joinTable' => 'energypolicylinks_realisations',
+			'foreignKey' => 'realisation_id',
+			'associationForeignKey' => 'energypolicylink_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
 		'Municipality' => array(
 			'className' => 'Municipality',
 			'joinTable' => 'municipalities_realisations',
@@ -53,6 +109,21 @@ class Realisation extends AppModel {
 			'joinTable' => 'realisations_reviews',
 			'foreignKey' => 'realisation_id',
 			'associationForeignKey' => 'review_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
+		'Stakeholder' => array(
+			'className' => 'Stakeholder',
+			'joinTable' => 'stakeholders_realisations',
+			'foreignKey' => 'realisation_id',
+			'associationForeignKey' => 'stakeholder_id',
 			'unique' => 'keepExisting',
 			'conditions' => '',
 			'fields' => '',

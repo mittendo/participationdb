@@ -13,7 +13,13 @@ class ProcesscomponentsControllerTest extends ControllerTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.processcomponent'
+		'app.processcomponent',
+		'app.realisation',
+		'app.municipality',
+		'app.municipalities_realisation',
+		'app.processcomponents_realisation',
+		'app.review',
+		'app.realisations_review'
 	);
 
 /**

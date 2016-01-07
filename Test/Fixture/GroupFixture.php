@@ -15,6 +15,7 @@ class GroupFixture extends CakeTestFixture {
 		'name' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 100, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'type' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 45, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'indexes' => array(
 			'PRIMARY' => array('column' => 'id', 'unique' => 1)
 		),
@@ -30,8 +31,9 @@ class GroupFixture extends CakeTestFixture {
 		array(
 			'id' => 1,
 			'name' => 'Lorem ipsum dolor sit amet',
-			'created' => '2015-10-15 06:38:30',
-			'modified' => '2015-10-15 06:38:30'
+			'created' => '2016-01-05 11:08:30',
+			'modified' => '2016-01-05 11:08:30',
+			'type' => 'Lorem ipsum dolor sit amet'
 		),
 	);
 

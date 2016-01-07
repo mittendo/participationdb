@@ -47,6 +47,8 @@ class ProcesscomponentsController extends AppController {
 				$this->Session->setFlash(__('The processcomponent could not be saved. Please, try again.'));
 			}
 		}
+		$realisations = $this->Processcomponent->Realisation->find('list');
+		$this->set(compact('realisations'));
 	}
 
 /**
@@ -71,6 +73,8 @@ class ProcesscomponentsController extends AppController {
 			$options = array('conditions' => array('Processcomponent.' . $this->Processcomponent->primaryKey => $id));
 			$this->request->data = $this->Processcomponent->find('first', $options);
 		}
+		$realisations = $this->Processcomponent->Realisation->find('list');
+		$this->set(compact('realisations'));
 	}
 
 /**
