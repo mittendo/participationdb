@@ -51,7 +51,7 @@
 		echo $this->Form->input('Municipality');
 		echo $this->Form->input('Processcomponent');
 		echo $this->Form->input('Review');
-		echo $this->Form->input('Stakeholder');
+		echo $this->Form->input('Initiating Stakeholder');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
