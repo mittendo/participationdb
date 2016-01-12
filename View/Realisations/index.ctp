@@ -45,9 +45,12 @@
 			<th><?php echo $this->Paginator->sort('regional_scope_description'); ?></th>
 			<th><?php echo $this->Paginator->sort('publicity_scope'); ?></th>
 			<th><?php echo $this->Paginator->sort('conflict_type'); ?></th>
-			<th><?php echo $this->Paginator->sort('conflict_aspect_other'); ?></th>
 			<th><?php echo $this->Paginator->sort('escalation_degree'); ?></th>
+			<th><?php echo $this->Paginator->sort('conflict_aspect_other'); ?></th>
 			<th><?php echo $this->Paginator->sort('stakeholder_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('energypolicylink_description'); ?></th>
+			<th><?php echo $this->Paginator->sort('energysector_description'); ?></th>
+			<th><?php echo $this->Paginator->sort('online_offline'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($realisations as $realisation): ?>
@@ -95,11 +98,14 @@
 		<td><?php echo h($realisation['Realisation']['regional_scope_description']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['publicity_scope']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['conflict_type']); ?>&nbsp;</td>
-		<td><?php echo h($realisation['Realisation']['conflict_aspect_other']); ?>&nbsp;</td>
 		<td><?php echo h($realisation['Realisation']['escalation_degree']); ?>&nbsp;</td>
+		<td><?php echo h($realisation['Realisation']['conflict_aspect_other']); ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($realisation['Stakeholder']['name'], array('controller' => 'stakeholders', 'action' => 'view', $realisation['Stakeholder']['id'])); ?>
 		</td>
+		<td><?php echo h($realisation['Realisation']['energypolicylink_description']); ?>&nbsp;</td>
+		<td><?php echo h($realisation['Realisation']['energysector_description']); ?>&nbsp;</td>
+		<td><?php echo h($realisation['Realisation']['online_offline']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $realisation['Realisation']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $realisation['Realisation']['id'])); ?>

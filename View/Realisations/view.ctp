@@ -216,19 +216,34 @@
 			<?php echo h($realisation['Realisation']['conflict_type']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Conflict Aspect Other'); ?></dt>
-		<dd>
-			<?php echo h($realisation['Realisation']['conflict_aspect_other']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Escalation Degree'); ?></dt>
 		<dd>
 			<?php echo h($realisation['Realisation']['escalation_degree']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Conflict Aspect Other'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['conflict_aspect_other']); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Stakeholder'); ?></dt>
 		<dd>
 			<?php echo $this->Html->link($realisation['Stakeholder']['name'], array('controller' => 'stakeholders', 'action' => 'view', $realisation['Stakeholder']['id'])); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Energypolicylink Description'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['energypolicylink_description']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Energysector Description'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['energysector_description']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Online Offline'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['online_offline']); ?>
 			&nbsp;
 		</dd>
 	</dl>

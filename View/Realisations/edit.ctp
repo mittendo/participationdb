@@ -44,9 +44,12 @@
 		echo $this->Form->input('regional_scope_description');
 		echo $this->Form->input('publicity_scope');
 		echo $this->Form->input('conflict_type');
-		echo $this->Form->input('conflict_aspect_other');
 		echo $this->Form->input('escalation_degree');
+		echo $this->Form->input('conflict_aspect_other');
 		echo $this->Form->input('stakeholder_id');
+		echo $this->Form->input('energypolicylink_description');
+		echo $this->Form->input('energysector_description');
+		echo $this->Form->input('online_offline');
 		echo $this->Form->input('EnergySector');
 		echo $this->Form->input('Energypolicylink');
 		echo $this->Form->input('Municipality');
