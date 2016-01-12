@@ -137,9 +137,22 @@
                         )
                      );
 		#echo $this->Form->input('conflict_type');
-		echo $this->Form->input('escalation_degree');
+		echo $this->Form->input('escalation_degree', array(
+                    'options' => array(
+                        '1. Verhärtung',
+                        '2. Debatte',
+                        '3. Worte statt Taten',
+                        '4. Verhärtete Lager',
+                        '5. Gesichtsverlust',
+                        '6. Drohstrategien',
+                        '7. Begrenzte Vernichtungsschläge',
+                        '8. Zersplitterung',
+                        '9. Gemeinsam in den Abgrund'
+                    ),
+                    'empty' => '(bitte auswählen)'
+                ));
 		echo $this->Form->input('conflict_aspect_other');
-		echo $this->Form->input('stakeholder_id');
+		#echo $this->Form->input('stakeholder_id');
 		echo $this->Form->input('energypolicylink_description');
 		echo $this->Form->input('energysector_description');
 		echo $this->Form->input('online_offline', array(
