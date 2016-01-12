@@ -4,6 +4,7 @@ App::uses('AppModel', 'Model');
  * Realisation Model
  *
  * @property Stakeholder $Stakeholder
+ * @property Conflicttype $Conflicttype
  * @property EnergySector $EnergySector
  * @property Energypolicylink $Energypolicylink
  * @property Municipality $Municipality
@@ -44,6 +45,21 @@ class Realisation extends AppModel {
  * @var array
  */
 	public $hasAndBelongsToMany = array(
+		'Conflicttype' => array(
+			'className' => 'Conflicttype',
+			'joinTable' => 'conflicttype_realisations',
+			'foreignKey' => 'realisation_id',
+			'associationForeignKey' => 'conflicttype_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
 		'EnergySector' => array(
 			'className' => 'EnergySector',
 			'joinTable' => 'energy_sectors_realisations',

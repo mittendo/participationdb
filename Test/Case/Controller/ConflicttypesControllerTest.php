@@ -1,11 +1,11 @@
 <?php
-App::uses('RealisationsController', 'Controller');
+App::uses('ConflicttypesController', 'Controller');
 
 /**
- * RealisationsController Test Case
+ * ConflicttypesController Test Case
  *
  */
-class RealisationsControllerTest extends ControllerTestCase {
+class ConflicttypesControllerTest extends ControllerTestCase {
 
 /**
  * Fixtures
@@ -13,11 +13,10 @@ class RealisationsControllerTest extends ControllerTestCase {
  * @var array
  */
 	public $fixtures = array(
+		'app.conflicttype',
 		'app.realisation',
 		'app.stakeholder',
 		'app.stakeholders_realisation',
-		'app.conflicttype',
-		'app.conflicttype_realisation',
 		'app.energy_sector',
 		'app.energy_sectors_realisation',
 		'app.energypolicylink',
@@ -27,7 +26,8 @@ class RealisationsControllerTest extends ControllerTestCase {
 		'app.processcomponent',
 		'app.processcomponents_realisation',
 		'app.review',
-		'app.realisations_review'
+		'app.realisations_review',
+		'app.conflicttype_realisation'
 	);
 
 /**

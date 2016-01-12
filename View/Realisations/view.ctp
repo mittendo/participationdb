@@ -246,6 +246,11 @@
 			<?php echo h($realisation['Realisation']['online_offline']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Legal Base'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['legal_base']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">
