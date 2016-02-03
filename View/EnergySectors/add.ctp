@@ -4,6 +4,8 @@
 		<legend><?php echo __('Add Energy Sector'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
+		echo $this->Form->input('number');
+		echo $this->Form->input('Realisation');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
@@ -14,6 +16,6 @@
 
 		<li><?php echo $this->Html->link(__('List Energy Sectors'), array('action' => 'index')); ?></li>
 		<li><?php echo $this->Html->link(__('List Realisations'), array('controller' => 'realisations', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Realisations'), array('controller' => 'realisations', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Realisation'), array('controller' => 'realisations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

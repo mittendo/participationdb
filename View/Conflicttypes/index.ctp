@@ -6,7 +6,6 @@
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('categorycol'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($conflicttypes as $conflicttype): ?>
@@ -15,7 +14,6 @@
 		<td><?php echo h($conflicttype['Conflicttype']['name']); ?>&nbsp;</td>
 		<td><?php echo h($conflicttype['Conflicttype']['created']); ?>&nbsp;</td>
 		<td><?php echo h($conflicttype['Conflicttype']['modified']); ?>&nbsp;</td>
-		<td><?php echo h($conflicttype['Conflicttype']['categorycol']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $conflicttype['Conflicttype']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $conflicttype['Conflicttype']['id'])); ?>

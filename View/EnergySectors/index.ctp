@@ -6,6 +6,7 @@
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
+			<th><?php echo $this->Paginator->sort('number'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($energySectors as $energySector): ?>
@@ -14,6 +15,7 @@
 		<td><?php echo h($energySector['EnergySector']['name']); ?>&nbsp;</td>
 		<td><?php echo h($energySector['EnergySector']['created']); ?>&nbsp;</td>
 		<td><?php echo h($energySector['EnergySector']['modified']); ?>&nbsp;</td>
+		<td><?php echo h($energySector['EnergySector']['number']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $energySector['EnergySector']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $energySector['EnergySector']['id'])); ?>
@@ -41,6 +43,6 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('New Energy Sector'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Realisations'), array('controller' => 'realisations', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Realisations'), array('controller' => 'realisations', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Realisation'), array('controller' => 'realisations', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

@@ -62,12 +62,17 @@ echo $this->Html->image('logo_print.gif', array('class' => 'print', 'style'=>'ma
 <!-- Container um komplette Seite herum -->
 <div id="container">
   <div id="headimage_sub">
-    <a href="http://www.uni-wuppertal.de/" class="none" title="Zurück zur Startseite">
+    <a href="http://www.buergerbeteiligung.uni-wuppertal.de/" class="none" title="Zurück zur Startseite">
       <img src="/img/logo.gif" class="logo" alt="Logo der Bergischen Universität Wuppertal" />
-    </a>
+    </a> 
+    </div>
     <a name="zur_navigation" class="none"></a>
-    <div id="navigation_header"><ul id="main_navigation"><li class="n1"><dfn>1</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/ueber-uns.html" title="&Uuml;BER UNS" accesskey="U">ÜBER UNS</a></li><li class="n2"><dfn>2</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/buergerbeteiligung.html" title="BÜRGERBETEILIGUNG" accesskey="B">BÜRGERBETEILIGUNG</a></li><li class="n3"><dfn>3</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/demokratie-und-partizipationsforschung.html" title="DEMOKRATIE- UND PARTIZIPATIONSFORSCHUNG" accesskey="D">DEMOKRATIE- UND PARTIZIPATIONSFORSCHUNG</a></li><li class="n4"><dfn>4</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/lehre.html" title="LEHRE" accesskey="L">LEHRE</a></li><li class="n5"><dfn>5</dfn><a href="http://www.buergerbeteiligung.uni-wuppertal.de/datenbank-buergerbegehren.html" title="DATENBANK BÜRGERBEGEHREN" accesskey="A">DATENBANK BÜRGERBEGEHREN</a></li></ul></div>
-  </div>
+   <ul id="main_navigation">
+       <li class="n1"><dfn>1</dfn><a href="/realisations" title="Startseite" accesskey="S">STARTSEITE</a></li>
+       <li class="n2"><dfn>2</dfn><a href="/realisations/add" title="Neuen Fall eintragen" accesskey="N">NEUER FALL</a></li>
+       <li class="n3"><dfn>3</dfn><a href="/stakeholders" title="Administration" accesskey="A">ADMINBEREICH</a></li>
+   </ul>
+ 
     
 
     <div id="content">

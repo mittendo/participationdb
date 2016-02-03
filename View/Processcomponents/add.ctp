@@ -4,6 +4,7 @@
 		<legend><?php echo __('Add Processcomponent'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
+		echo $this->Form->input('number');
 		echo $this->Form->input('Realisation');
 	?>
 	</fieldset>

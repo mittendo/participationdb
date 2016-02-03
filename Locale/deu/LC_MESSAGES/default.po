@@ -4,17 +4,76 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Partizidb 0.1\n"
-"POT-Creation-Date: 2015-10-16 18:24+0000\n"
-"PO-Revision-Date: 2015-10-19 15:05+0100\n"
+"POT-Creation-Date: 2016-01-13 12:45+0000\n"
+"PO-Revision-Date: 2016-01-13 17:40+0100\n"
 "Last-Translator: Volker Mittendorf <volkermittendorf@online.de>\n"
-"Language-Team: IfPD <mittendo@uni-wuppertal.de>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
-"X-Poedit-SourceCharset: utf-8\n"
+
+#: Controller/ConflicttypesController.php:29;63;91
+msgid "Invalid conflicttype"
+msgstr "Ungültiger Konflikttyp"
+
+#: Controller/ConflicttypesController.php:44;67
+msgid "The conflicttype has been saved"
+msgstr "Der Konflikttyp wurde gespeichert"
+
+#: Controller/ConflicttypesController.php:47;70
+msgid "The conflicttype could not be saved. Please, try again."
+msgstr "Der Konflikttyp konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/ConflicttypesController.php:95
+msgid "Conflicttype deleted"
+msgstr "Konflikttype gelöscht"
+
+#: Controller/ConflicttypesController.php:98
+msgid "Conflicttype was not deleted"
+msgstr "Der Konflikttyp wurde nicht gelöscht"
+
+#: Controller/EnergySectorsController.php:29;63;91
+msgid "Invalid energy sector"
+msgstr "Ungültiger Energiepolitischer Bereich"
+
+#: Controller/EnergySectorsController.php:44;67
+msgid "The energy sector has been saved"
+msgstr "Der  Energiepolitischer Bereich wurde gespeichert."
+
+#: Controller/EnergySectorsController.php:47;70
+msgid "The energy sector could not be saved. Please, try again."
+msgstr "Energiepolitischer Bereich konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/EnergySectorsController.php:95
+msgid "Energy sector deleted"
+msgstr " Energiepolitischer Bereich gelöscht."
+
+#: Controller/EnergySectorsController.php:98
+msgid "Energy sector was not deleted"
+msgstr "Energiepolitischer Bereich nicht gelöscht"
+
+#: Controller/EnergypolicylinksController.php:29;63;91;121;155;183
+msgid "Invalid energypolicylink"
+msgstr "ungültiges Energiepolitisches Themenfeld"
+
+#: Controller/EnergypolicylinksController.php:44;67;136;159
+msgid "The energypolicylink has been saved"
+msgstr "Das Energiepolitische Themenfeld wurde gespeichert."
+
+#: Controller/EnergypolicylinksController.php:47;70;139;162
+msgid "The energypolicylink could not be saved. Please, try again."
+msgstr "Das Energiepolitische Themenfeld konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/EnergypolicylinksController.php:95;187
+msgid "Energypolicylink deleted"
+msgstr "Energiepolitisches Themenfeld gelöscht"
+
+#: Controller/EnergypolicylinksController.php:98;190
+msgid "Energypolicylink was not deleted"
+msgstr "Energiepolitisches Themenfeld konnte nicht gelöscht werden."
 
 #: Controller/GroupsController.php:29;61;87
 msgid "Invalid group"
@@ -56,43 +115,43 @@ msgstr "Ort gelöscht"
 msgid "Municipality was not deleted"
 msgstr "Ort wurde nicht gelöscht"
 
-#: Controller/ProcesscomponentsController.php:29;61;87
+#: Controller/ProcesscomponentsController.php:29;63;91
 msgid "Invalid processcomponent"
 msgstr "Ungültige Beteiligungskomponente"
 
-#: Controller/ProcesscomponentsController.php:44;65
+#: Controller/ProcesscomponentsController.php:44;67
 msgid "The processcomponent has been saved"
 msgstr "Die Beteiligungskomponente wurde gespeichert"
 
-#: Controller/ProcesscomponentsController.php:47;68
+#: Controller/ProcesscomponentsController.php:47;70
 msgid "The processcomponent could not be saved. Please, try again."
 msgstr "Die Beteiligungskomponente konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
 
-#: Controller/ProcesscomponentsController.php:91
+#: Controller/ProcesscomponentsController.php:95
 msgid "Processcomponent deleted"
 msgstr "Beteiligungskomponente gelöscht"
 
-#: Controller/ProcesscomponentsController.php:94
+#: Controller/ProcesscomponentsController.php:98
 msgid "Processcomponent was not deleted"
 msgstr "Beteiligungskompomente wurde nicht gelöscht"
 
-#: Controller/RealisationsController.php:34;70;100
+#: Controller/RealisationsController.php:29;70;105
 msgid "Invalid realisation"
 msgstr "Ungültiger Fall"
 
-#: Controller/RealisationsController.php:49;74
+#: Controller/RealisationsController.php:44;74
 msgid "The realisation has been saved"
 msgstr "Der Fall wurde gespeichert"
 
-#: Controller/RealisationsController.php:52;77
+#: Controller/RealisationsController.php:47;77
 msgid "The realisation could not be saved. Please, try again."
 msgstr "Der Fall konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
 
-#: Controller/RealisationsController.php:104
+#: Controller/RealisationsController.php:109
 msgid "Realisation deleted"
 msgstr "Fall gelöscht"
 
-#: Controller/RealisationsController.php:107
+#: Controller/RealisationsController.php:112
 msgid "Realisation was not deleted"
 msgstr "Der Fall wurde nicht gelöscht"
 
@@ -114,7 +173,27 @@ msgstr "Bewertung gelöscht"
 
 #: Controller/ReviewsController.php:99
 msgid "Review was not deleted"
-msgstr "Bewewrtung wurde nicht gelöscht"
+msgstr "Bewertung wurde nicht gelöscht"
+
+#: Controller/StakeholdersController.php:29;63;91
+msgid "Invalid stakeholder"
+msgstr "Ungültiger beteiligter Akteur"
+
+#: Controller/StakeholdersController.php:44;67
+msgid "The stakeholder has been saved"
+msgstr "Beteiligter Akteur wurde gespeichert"
+
+#: Controller/StakeholdersController.php:47;70
+msgid "The stakeholder could not be saved. Please, try again."
+msgstr "Beteiligter Akteur konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/StakeholdersController.php:95
+msgid "Stakeholder deleted"
+msgstr "Beteiligter Akteur gelöscht"
+
+#: Controller/StakeholdersController.php:98
+msgid "Stakeholder was not deleted"
+msgstr "Beteiligter Akteur wurde nicht gelöscht"
 
 #: Controller/UsersController.php:31;65;93
 msgid "Invalid user"
@@ -208,45 +287,69 @@ msgstr "Baumstruktur wurde wiederhergestellt oder Baumstruktur benötigte keine 
 msgid "<error>Tree recovery failed.</error>"
 msgstr "<error>Fehler beim Wiederherstellen des Baums</error>"
 
-#: View/Groups/add.ctp:4
-msgid "Add Group"
-msgstr "Eine Gruppe hinzufügen"
+#: View/Conflicttypes/add.ctp:4
+msgid "Add Conflicttype"
+msgstr "Konflikttyp hinzufügen"
 
-#: View/Groups/add.ctp:9
-#: View/Groups/edit.ctp:10
+#: View/Conflicttypes/add.ctp:11
+#: View/Conflicttypes/edit.ctp:12
+#: View/EnergySectors/add.ctp:9
+#: View/EnergySectors/edit.ctp:10
+#: View/Energypolicylinks/add.ctp:10
+#: View/Energypolicylinks/edit.ctp:11
+#: View/Groups/add.ctp:10
+#: View/Groups/edit.ctp:11
 #: View/Municipalities/add.ctp:25
 #: View/Municipalities/edit.ctp:26
-#: View/Processcomponents/add.ctp:9
-#: View/Processcomponents/edit.ctp:10
-#: View/Realisations/add.ctp:32
-#: View/Realisations/edit.ctp:33
+#: View/Processcomponents/add.ctp:10
+#: View/Processcomponents/edit.ctp:11
+#: View/Realisations/add.ctp:193
+#: View/Realisations/edit.ctp:193
 #: View/Reviews/add.ctp:9
 #: View/Reviews/edit.ctp:10
+#: View/Stakeholders/add.ctp:11
+#: View/Stakeholders/edit.ctp:12
 #: View/Users/add.ctp:11
 #: View/Users/edit.ctp:12
 msgid "Submit"
 msgstr "Befehl ausführen"
 
-#: View/Groups/add.ctp:12
-#: View/Groups/edit.ctp:13
-#: View/Groups/index.ctp:9;40
-#: View/Groups/view.ctp:27;48
+#: View/Conflicttypes/add.ctp:14
+#: View/Conflicttypes/edit.ctp:15
+#: View/Conflicttypes/index.ctp:10;42
+#: View/Conflicttypes/view.ctp:32;97
+#: View/EnergySectors/add.ctp:12
+#: View/EnergySectors/edit.ctp:13
+#: View/EnergySectors/index.ctp:9;40
+#: View/EnergySectors/view.ctp:27
+#: View/Energypolicylinks/add.ctp:13
+#: View/Energypolicylinks/edit.ctp:14
+#: View/Energypolicylinks/index.ctp:9;40
+#: View/Energypolicylinks/view.ctp:27;87
+#: View/Groups/add.ctp:13
+#: View/Groups/edit.ctp:14
+#: View/Groups/index.ctp:10;42
+#: View/Groups/view.ctp:32
 #: View/Municipalities/add.ctp:28
 #: View/Municipalities/edit.ctp:29
 #: View/Municipalities/index.ctp:23;68
 #: View/Municipalities/view.ctp:97
-#: View/Processcomponents/add.ctp:12
-#: View/Processcomponents/edit.ctp:13
-#: View/Processcomponents/index.ctp:7;36
-#: View/Processcomponents/view.ctp:17
-#: View/Realisations/add.ctp:35
-#: View/Realisations/edit.ctp:36
-#: View/Realisations/index.ctp:27;76
-#: View/Realisations/view.ctp:117;154;201;232
+#: View/Processcomponents/add.ctp:13
+#: View/Processcomponents/edit.ctp:14
+#: View/Processcomponents/index.ctp:9;40
+#: View/Processcomponents/view.ctp:27;76
+#: View/Realisations/add.ctp:199
+#: View/Realisations/edit.ctp:200
+#: View/Realisations/index.ctp:54;132
+#: View/Realisations/view.ctp:262;291;326;377;428;463;497
 #: View/Reviews/add.ctp:12
 #: View/Reviews/edit.ctp:13
 #: View/Reviews/index.ctp:7;36
 #: View/Reviews/view.ctp:17
+#: View/Stakeholders/add.ctp:14
+#: View/Stakeholders/edit.ctp:15
+#: View/Stakeholders/index.ctp:8;38
+#: View/Stakeholders/view.ctp:22;82
 #: View/Users/add.ctp:14
 #: View/Users/edit.ctp:15
 #: View/Users/index.ctp:11;46
@@ -254,9 +357,712 @@ msgstr "Befehl ausführen"
 msgid "Actions"
 msgstr "Aktionen"
 
-#: View/Groups/add.ctp:15
+#: View/Conflicttypes/add.ctp:17
+#: View/Conflicttypes/edit.ctp:19
+#: View/Conflicttypes/view.ctp:36
+msgid "List Conflicttypes"
+msgstr "Konflikttypen auflisten"
+
+#: View/Conflicttypes/add.ctp:18
+#: View/Conflicttypes/edit.ctp:20
+#: View/Conflicttypes/index.ctp:45
+#: View/Conflicttypes/view.ctp:38
+#: View/EnergySectors/add.ctp:16
+#: View/EnergySectors/edit.ctp:18
+#: View/EnergySectors/index.ctp:43
+#: View/EnergySectors/view.ctp:33
+#: View/Energypolicylinks/add.ctp:17
+#: View/Energypolicylinks/edit.ctp:19
+#: View/Energypolicylinks/index.ctp:43
+#: View/Energypolicylinks/view.ctp:33
+#: View/Processcomponents/add.ctp:17
+#: View/Processcomponents/edit.ctp:19
+#: View/Processcomponents/index.ctp:43
+#: View/Processcomponents/view.ctp:33
+#: View/Realisations/add.ctp:202
+#: View/Realisations/edit.ctp:204
+#: View/Realisations/view.ctp:266
+#: View/Stakeholders/add.ctp:18
+#: View/Stakeholders/edit.ctp:20
+#: View/Stakeholders/index.ctp:41
+#: View/Stakeholders/view.ctp:28
+msgid "List Realisations"
+msgstr "Fälle auflisten"
+
+#: View/Conflicttypes/add.ctp:19
+#: View/Conflicttypes/edit.ctp:21
+#: View/Conflicttypes/index.ctp:46
+#: View/Conflicttypes/view.ctp:39;165
+#: View/Energypolicylinks/add.ctp:18
+#: View/Energypolicylinks/edit.ctp:20
+#: View/Energypolicylinks/index.ctp:44
+#: View/Energypolicylinks/view.ctp:34;150
+#: View/Processcomponents/add.ctp:18
+#: View/Processcomponents/edit.ctp:20
+#: View/Processcomponents/index.ctp:44
+#: View/Processcomponents/view.ctp:34;128
+#: View/Realisations/index.ctp:134
+#: View/Realisations/view.ctp:267
+#: View/Stakeholders/add.ctp:19
+#: View/Stakeholders/edit.ctp:21
+#: View/Stakeholders/index.ctp:42
+#: View/Stakeholders/view.ctp:29;145
+msgid "New Realisation"
+msgstr "Neuer Fall"
+
+#: View/Conflicttypes/edit.ctp:4
+#: View/Conflicttypes/view.ctp:34
+msgid "Edit Conflicttype"
+msgstr "Konflikttyp bearbeiten"
+
+#: View/Conflicttypes/edit.ctp:18
+#: View/Conflicttypes/index.ctp:22
+#: View/Conflicttypes/view.ctp:156
+#: View/EnergySectors/edit.ctp:16
+#: View/EnergySectors/index.ctp:20
+#: View/Energypolicylinks/edit.ctp:17
+#: View/Energypolicylinks/index.ctp:20
+#: View/Energypolicylinks/view.ctp:141
 #: View/Groups/edit.ctp:17
-#: View/Groups/view.ctp:31
+#: View/Groups/index.ctp:22
+#: View/Municipalities/edit.ctp:32
+#: View/Municipalities/index.ctp:48
+#: View/Processcomponents/edit.ctp:17
+#: View/Processcomponents/index.ctp:20
+#: View/Processcomponents/view.ctp:119
+#: View/Realisations/edit.ctp:203
+#: View/Realisations/index.ctp:112
+#: View/Realisations/view.ctp:304;339;406;441;476;509
+#: View/Reviews/edit.ctp:16
+#: View/Reviews/index.ctp:16
+#: View/Stakeholders/edit.ctp:18
+#: View/Stakeholders/index.ctp:18
+#: View/Stakeholders/view.ctp:136
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+msgid "Delete"
+msgstr "Löschen"
+
+#: View/Conflicttypes/edit.ctp:18
+#: View/Conflicttypes/index.ctp:22
+#: View/Conflicttypes/view.ctp:35;156
+#: View/EnergySectors/edit.ctp:16
+#: View/EnergySectors/index.ctp:20
+#: View/EnergySectors/view.ctp:30
+#: View/Energypolicylinks/edit.ctp:17
+#: View/Energypolicylinks/index.ctp:20
+#: View/Energypolicylinks/view.ctp:30;141
+#: View/Groups/edit.ctp:17
+#: View/Groups/index.ctp:22
+#: View/Groups/view.ctp:35
+#: View/Municipalities/edit.ctp:32
+#: View/Municipalities/index.ctp:48
+#: View/Municipalities/view.ctp:100
+#: View/Processcomponents/edit.ctp:17
+#: View/Processcomponents/index.ctp:20
+#: View/Processcomponents/view.ctp:30;119
+#: View/Realisations/edit.ctp:203
+#: View/Realisations/index.ctp:112
+#: View/Realisations/view.ctp:265;304;339;406;441;476;509
+#: View/Reviews/edit.ctp:16
+#: View/Reviews/index.ctp:16
+#: View/Reviews/view.ctp:20
+#: View/Stakeholders/edit.ctp:18
+#: View/Stakeholders/index.ctp:18
+#: View/Stakeholders/view.ctp:25;136
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+#: View/Users/view.ctp:40
+msgid "Are you sure you want to delete # %s?"
+msgstr "Sind Sie sicher, dass Sie Fall # %s löschen wollen?"
+
+#: View/Conflicttypes/index.ctp:2
+msgid "Conflicttypes"
+msgstr "Themen und Aspekte der Konfliktbeteiligung"
+
+#: View/Conflicttypes/index.ctp:20
+#: View/Conflicttypes/view.ctp:154
+#: View/EnergySectors/index.ctp:18
+#: View/Energypolicylinks/index.ctp:18
+#: View/Energypolicylinks/view.ctp:139
+#: View/Groups/index.ctp:20
+#: View/Municipalities/index.ctp:46
+#: View/Processcomponents/index.ctp:18
+#: View/Processcomponents/view.ctp:117
+#: View/Realisations/index.ctp:110
+#: View/Realisations/view.ctp:302;337;404;439;474;507
+#: View/Reviews/index.ctp:14
+#: View/Stakeholders/index.ctp:16
+#: View/Stakeholders/view.ctp:134
+#: View/Users/index.ctp:24
+msgid "View"
+msgstr "Ansicht"
+
+#: View/Conflicttypes/index.ctp:21
+#: View/Conflicttypes/view.ctp:155
+#: View/EnergySectors/index.ctp:19
+#: View/Energypolicylinks/index.ctp:19
+#: View/Energypolicylinks/view.ctp:140
+#: View/Groups/index.ctp:21
+#: View/Municipalities/index.ctp:47
+#: View/Processcomponents/index.ctp:19
+#: View/Processcomponents/view.ctp:118
+#: View/Realisations/index.ctp:111
+#: View/Realisations/view.ctp:303;338;405;440;475;508
+#: View/Reviews/index.ctp:15
+#: View/Stakeholders/index.ctp:17
+#: View/Stakeholders/view.ctp:135
+#: View/Users/index.ctp:25
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: View/Conflicttypes/index.ctp:30
+#: View/EnergySectors/index.ctp:28
+#: View/Energypolicylinks/index.ctp:28
+#: View/Groups/index.ctp:30
+#: View/Municipalities/index.ctp:56
+#: View/Processcomponents/index.ctp:28
+#: View/Realisations/index.ctp:120
+#: View/Reviews/index.ctp:24
+#: View/Stakeholders/index.ctp:26
+#: View/Users/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} insgesamt, beginne bei Eintrag {:start}, ende bei Eintrag {:end}"
+
+#: View/Conflicttypes/index.ctp:35
+#: View/EnergySectors/index.ctp:33
+#: View/Energypolicylinks/index.ctp:33
+#: View/Groups/index.ctp:35
+#: View/Municipalities/index.ctp:61
+#: View/Processcomponents/index.ctp:33
+#: View/Realisations/index.ctp:125
+#: View/Reviews/index.ctp:29
+#: View/Stakeholders/index.ctp:31
+#: View/Users/index.ctp:39
+msgid "previous"
+msgstr "Zurück"
+
+#: View/Conflicttypes/index.ctp:37
+#: View/EnergySectors/index.ctp:35
+#: View/Energypolicylinks/index.ctp:35
+#: View/Groups/index.ctp:37
+#: View/Municipalities/index.ctp:63
+#: View/Processcomponents/index.ctp:35
+#: View/Realisations/index.ctp:127
+#: View/Reviews/index.ctp:31
+#: View/Stakeholders/index.ctp:33
+#: View/Users/index.ctp:41
+msgid "next"
+msgstr "Weiter"
+
+#: View/Conflicttypes/index.ctp:44
+#: View/Conflicttypes/view.ctp:37
+msgid "New Conflicttype"
+msgstr "Neuer Konflikttyp"
+
+#: View/Conflicttypes/view.ctp:2
+msgid "Conflicttype"
+msgstr "Thema bzw. Aspekt der Konfliktbeteiligung"
+
+#: View/Conflicttypes/view.ctp:4;47
+#: View/EnergySectors/view.ctp:4
+#: View/Energypolicylinks/view.ctp:4;42
+#: View/Groups/view.ctp:4
+#: View/Municipalities/view.ctp:4
+#: View/Processcomponents/view.ctp:4;42
+#: View/Realisations/view.ctp:4;287;322;357;424;459;494
+#: View/Reviews/view.ctp:4
+#: View/Stakeholders/view.ctp:4;37
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr "ID"
+
+#: View/Conflicttypes/view.ctp:9;50
+#: View/EnergySectors/view.ctp:9
+#: View/Energypolicylinks/view.ctp:9;45
+#: View/Groups/view.ctp:9
+#: View/Municipalities/view.ctp:39
+#: View/Processcomponents/view.ctp:9;45
+#: View/Realisations/view.ctp:19;288;323;364;425;495
+#: View/Stakeholders/view.ctp:9;40
+msgid "Name"
+msgstr "Name"
+
+#: View/Conflicttypes/view.ctp:14;67
+#: View/EnergySectors/view.ctp:14
+#: View/Energypolicylinks/view.ctp:14;62
+#: View/Groups/view.ctp:14
+#: View/Processcomponents/view.ctp:14;62
+#: View/Realisations/view.ctp:104;289;324;375;426;461
+#: View/Stakeholders/view.ctp:57
+#: View/Users/view.ctp:24
+msgid "Created"
+msgstr "Erstellt"
+
+#: View/Conflicttypes/view.ctp:19;68
+#: View/EnergySectors/view.ctp:19
+#: View/Energypolicylinks/view.ctp:19;63
+#: View/Groups/view.ctp:19
+#: View/Processcomponents/view.ctp:19;63
+#: View/Realisations/view.ctp:109;290;325;376;427;462
+#: View/Stakeholders/view.ctp:58
+#: View/Users/view.ctp:29
+msgid "Modified"
+msgstr "Geändert"
+
+#: View/Conflicttypes/view.ctp:24
+msgid "Categorycol"
+msgstr "Kategoriespalte"
+
+#: View/Conflicttypes/view.ctp:35
+msgid "Delete Conflicttype"
+msgstr "Konflikttyp löschen"
+
+#: View/Conflicttypes/view.ctp:43
+#: View/Energypolicylinks/view.ctp:38
+#: View/Processcomponents/view.ctp:38
+#: View/Stakeholders/view.ctp:33
+msgid "Related Realisations"
+msgstr "Zugehörige Fälle"
+
+#: View/Conflicttypes/view.ctp:48
+#: View/Energypolicylinks/view.ctp:43
+#: View/Processcomponents/view.ctp:43
+#: View/Realisations/view.ctp:9
+#: View/Stakeholders/view.ctp:38
+msgid "Main Municipality"
+msgstr "Hauptort des Verfahrens"
+
+#: View/Conflicttypes/view.ctp:49
+#: View/Energypolicylinks/view.ctp:44
+#: View/Municipalities/view.ctp:14
+#: View/Processcomponents/view.ctp:44
+#: View/Realisations/view.ctp:14;359
+#: View/Stakeholders/view.ctp:39
+msgid "Land"
+msgstr "Land"
+
+#: View/Conflicttypes/view.ctp:51
+#: View/Energypolicylinks/view.ctp:46
+#: View/Processcomponents/view.ctp:46
+#: View/Realisations/view.ctp:24
+#: View/Stakeholders/view.ctp:41
+msgid "Initiating Actor"
+msgstr "Einleitungsakteur"
+
+#: View/Conflicttypes/view.ctp:52
+#: View/Energypolicylinks/view.ctp:47
+#: View/Processcomponents/view.ctp:47
+#: View/Realisations/view.ctp:29
+#: View/Stakeholders/view.ctp:42
+msgid "Demand Of Participation"
+msgstr "Beteiligungsnachfrage"
+
+#: View/Conflicttypes/view.ctp:53
+#: View/Energypolicylinks/view.ctp:48
+#: View/Processcomponents/view.ctp:48
+#: View/Realisations/view.ctp:34
+#: View/Stakeholders/view.ctp:43
+msgid "Supplier Of Participation"
+msgstr "Anbieter der Beteiligung"
+
+#: View/Conflicttypes/view.ctp:54
+#: View/Energypolicylinks/view.ctp:49
+#: View/Processcomponents/view.ctp:49
+#: View/Realisations/view.ctp:39
+#: View/Stakeholders/view.ctp:44
+msgid "Comment On Initiating Process"
+msgstr "Kommentar zum Einleitungsprozess"
+
+#: View/Conflicttypes/view.ctp:55
+#: View/Energypolicylinks/view.ctp:50
+#: View/Processcomponents/view.ctp:50
+#: View/Realisations/view.ctp:44
+#: View/Stakeholders/view.ctp:45
+msgid "Contingency Of Decision"
+msgstr "Entscheidungsoffenheit"
+
+#: View/Conflicttypes/view.ctp:56
+#: View/Energypolicylinks/view.ctp:51
+#: View/Processcomponents/view.ctp:51
+#: View/Realisations/view.ctp:49
+#: View/Stakeholders/view.ctp:46
+msgid "Echt"
+msgstr "Echt"
+
+#: View/Conflicttypes/view.ctp:57
+#: View/Energypolicylinks/view.ctp:52
+#: View/Processcomponents/view.ctp:52
+#: View/Realisations/view.ctp:54
+#: View/Stakeholders/view.ctp:47
+msgid "Unecht"
+msgstr "Unecht"
+
+#: View/Conflicttypes/view.ctp:58
+#: View/Energypolicylinks/view.ctp:53
+#: View/Processcomponents/view.ctp:53
+#: View/Realisations/view.ctp:59
+#: View/Stakeholders/view.ctp:48
+msgid "Description Of Process"
+msgstr "Prozessbeschreibung"
+
+#: View/Conflicttypes/view.ctp:59
+#: View/Energypolicylinks/view.ctp:54
+#: View/Processcomponents/view.ctp:54
+#: View/Realisations/view.ctp:64
+#: View/Stakeholders/view.ctp:49
+msgid "Invitation"
+msgstr "Einladung"
+
+#: View/Conflicttypes/view.ctp:60
+#: View/Energypolicylinks/view.ctp:55
+#: View/Processcomponents/view.ctp:55
+#: View/Realisations/view.ctp:69
+#: View/Stakeholders/view.ctp:50
+msgid "Citizen Information"
+msgstr "Bürgerinformation"
+
+#: View/Conflicttypes/view.ctp:61
+#: View/Energypolicylinks/view.ctp:56
+#: View/Processcomponents/view.ctp:56
+#: View/Realisations/view.ctp:74
+#: View/Stakeholders/view.ctp:51
+msgid "Participation In Conflicts"
+msgstr "Konfliktbeteiligung"
+
+#: View/Conflicttypes/view.ctp:62
+#: View/Energypolicylinks/view.ctp:57
+#: View/Processcomponents/view.ctp:57
+#: View/Realisations/view.ctp:79
+#: View/Stakeholders/view.ctp:52
+msgid "Community Service"
+msgstr "Bürgerengagement"
+
+#: View/Conflicttypes/view.ctp:63
+#: View/Energypolicylinks/view.ctp:58
+#: View/Processcomponents/view.ctp:58
+#: View/Realisations/view.ctp:84
+#: View/Stakeholders/view.ctp:53
+msgid "Conflict Of Values"
+msgstr "Wertkonflikt"
+
+#: View/Conflicttypes/view.ctp:64
+#: View/Energypolicylinks/view.ctp:59
+#: View/Processcomponents/view.ctp:59
+#: View/Realisations/view.ctp:89
+#: View/Stakeholders/view.ctp:54
+msgid "Conflict Of Interests"
+msgstr "Interessenkonflikt"
+
+#: View/Conflicttypes/view.ctp:65
+#: View/Energypolicylinks/view.ctp:60
+#: View/Municipalities/view.ctp:69
+#: View/Processcomponents/view.ctp:60
+#: View/Realisations/view.ctp:94;370
+#: View/Stakeholders/view.ctp:55
+msgid "Date"
+msgstr "Datum"
+
+#: View/Conflicttypes/view.ctp:66
+#: View/Energypolicylinks/view.ctp:61
+#: View/Processcomponents/view.ctp:61
+#: View/Realisations/view.ctp:99
+#: View/Stakeholders/view.ctp:56
+msgid "URL"
+msgstr "URL"
+
+#: View/Conflicttypes/view.ctp:69
+#: View/Energypolicylinks/view.ctp:64
+#: View/Processcomponents/view.ctp:64
+#: View/Realisations/view.ctp:114
+#: View/Stakeholders/view.ctp:59
+msgid "Status"
+msgstr "Status"
+
+#: View/Conflicttypes/view.ctp:70
+#: View/Energypolicylinks/view.ctp:65
+#: View/Processcomponents/view.ctp:65
+#: View/Realisations/view.ctp:119
+#: View/Stakeholders/view.ctp:60
+msgid "Bottomup Topdown"
+msgstr "Initiative der Beteiligung"
+
+#: View/Conflicttypes/view.ctp:71
+#: View/Energypolicylinks/view.ctp:66
+#: View/Processcomponents/view.ctp:66
+#: View/Realisations/view.ctp:124
+#: View/Stakeholders/view.ctp:61
+msgid "Regional Relation"
+msgstr "Regionalbezug"
+
+#: View/Conflicttypes/view.ctp:72
+#: View/Energypolicylinks/view.ctp:67
+#: View/Processcomponents/view.ctp:67
+#: View/Realisations/view.ctp:129
+#: View/Stakeholders/view.ctp:62
+msgid "Sektor"
+msgstr "Sektor"
+
+#: View/Conflicttypes/view.ctp:73
+#: View/Energypolicylinks/view.ctp:68
+#: View/Processcomponents/view.ctp:68
+#: View/Realisations/view.ctp:134
+#: View/Stakeholders/view.ctp:63
+msgid "Issue Energy"
+msgstr "Energiepolitisches Themenfeld"
+
+#: View/Conflicttypes/view.ctp:74
+#: View/Energypolicylinks/view.ctp:69
+#: View/Processcomponents/view.ctp:69
+#: View/Realisations/view.ctp:139
+#: View/Stakeholders/view.ctp:64
+msgid "Policy"
+msgstr "Politikfeld"
+
+#: View/Conflicttypes/view.ctp:75
+#: View/Energypolicylinks/view.ctp:70
+#: View/Processcomponents/view.ctp:70
+#: View/Realisations/view.ctp:144
+#: View/Stakeholders/view.ctp:65
+msgid "Short Description"
+msgstr "Kurzbeschreibung"
+
+#: View/Conflicttypes/view.ctp:76
+#: View/Energypolicylinks/view.ctp:71
+#: View/Processcomponents/view.ctp:71
+#: View/Realisations/view.ctp:149
+#: View/Stakeholders/view.ctp:66
+msgid "Success"
+msgstr "Erfolg"
+
+#: View/Conflicttypes/view.ctp:77
+#: View/Energypolicylinks/view.ctp:72
+#: View/Processcomponents/view.ctp:72
+#: View/Realisations/view.ctp:154
+#: View/Stakeholders/view.ctp:67
+msgid "Social Innovation Relation"
+msgstr "Bezug zu Sozialen Innovationen"
+
+#: View/Conflicttypes/view.ctp:78
+#: View/Energypolicylinks/view.ctp:73
+#: View/Processcomponents/view.ctp:73
+#: View/Realisations/view.ctp:159
+#: View/Stakeholders/view.ctp:68
+msgid "Jahr"
+msgstr "Jahr"
+
+#: View/Conflicttypes/view.ctp:79
+#: View/Energypolicylinks/view.ctp:74
+#: View/Municipalities/view.ctp:54
+#: View/Processcomponents/view.ctp:74
+#: View/Realisations/view.ctp:164;367
+#: View/Stakeholders/view.ctp:69
+msgid "PLZ"
+msgstr "PLZ"
+
+#: View/Conflicttypes/view.ctp:80
+#: View/Energypolicylinks/view.ctp:75
+#: View/Processcomponents/view.ctp:75
+#: View/Realisations/view.ctp:169
+#: View/Stakeholders/view.ctp:70
+msgid "Inhabitants Classified"
+msgstr "Gemeindegrößenklasse"
+
+#: View/Conflicttypes/view.ctp:81
+#: View/Energypolicylinks/view.ctp:76
+#: View/Realisations/view.ctp:174
+#: View/Stakeholders/view.ctp:71
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: View/Conflicttypes/view.ctp:82
+#: View/Energypolicylinks/view.ctp:77
+#: View/Realisations/view.ctp:179
+#: View/Stakeholders/view.ctp:72
+msgid "End Date"
+msgstr "Enddatum"
+
+#: View/Conflicttypes/view.ctp:83
+#: View/Energypolicylinks/view.ctp:78
+#: View/Realisations/view.ctp:184
+#: View/Stakeholders/view.ctp:73
+msgid "Target Of Participation"
+msgstr "Ziel der Beteiligung"
+
+#: View/Conflicttypes/view.ctp:84
+#: View/Energypolicylinks/view.ctp:79
+#: View/Realisations/view.ctp:189
+#: View/Stakeholders/view.ctp:74
+msgid "Target Of Participation Description"
+msgstr "Ziel der Beteiligung - Erläuterung"
+
+#: View/Conflicttypes/view.ctp:85
+#: View/Energypolicylinks/view.ctp:80
+#: View/Realisations/view.ctp:194
+#: View/Stakeholders/view.ctp:75
+msgid "Relation Energy Change Policy"
+msgstr "Bezug zur Energiewende"
+
+#: View/Conflicttypes/view.ctp:86
+#: View/Energypolicylinks/view.ctp:81
+#: View/Realisations/view.ctp:199
+#: View/Stakeholders/view.ctp:76
+msgid "Regional Scope"
+msgstr "Regionale Reichweite"
+
+#: View/Conflicttypes/view.ctp:87
+#: View/Energypolicylinks/view.ctp:82
+#: View/Realisations/view.ctp:204
+#: View/Stakeholders/view.ctp:77
+msgid "Regional Scope Description"
+msgstr "Regionale Reichweite - Erläuterungen"
+
+#: View/Conflicttypes/view.ctp:88
+#: View/Energypolicylinks/view.ctp:83
+#: View/Realisations/view.ctp:209
+#: View/Stakeholders/view.ctp:78
+msgid "Publicity Scope"
+msgstr "Öffentlichkeitswirkung / Reichweite des Verfahrens"
+
+#: View/Conflicttypes/view.ctp:89
+#: View/Energypolicylinks/view.ctp:84
+#: View/Realisations/view.ctp:214
+#: View/Stakeholders/view.ctp:79
+msgid "Conflict Type"
+msgstr "Konflikttyp"
+
+#: View/Conflicttypes/view.ctp:90
+#: View/Energypolicylinks/view.ctp:86
+#: View/Realisations/view.ctp:219
+#: View/Stakeholders/view.ctp:81
+msgid "Escalation Degree"
+msgstr "Eskalationsgrad"
+
+#: View/Conflicttypes/view.ctp:91
+#: View/Energypolicylinks/view.ctp:85
+#: View/Realisations/view.ctp:224
+#: View/Stakeholders/view.ctp:80
+msgid "Conflict Aspect Other"
+msgstr "Themen und Aspekte der Konfliktbeteiligung - Erläuterungen"
+
+#: View/Conflicttypes/view.ctp:92
+msgid "Stakeholder Id"
+msgstr "Akteursgruppe ID"
+
+#: View/Conflicttypes/view.ctp:93
+#: View/Realisations/view.ctp:234
+msgid "Energypolicylink Description"
+msgstr "Energiepolitischer Themenbereich - Erläuterungen"
+
+#: View/Conflicttypes/view.ctp:94
+#: View/Realisations/view.ctp:239
+msgid "Energysector Description"
+msgstr "Energiepolitischer Bereich - Erläuterungen"
+
+#: View/Conflicttypes/view.ctp:95
+#: View/Realisations/view.ctp:244
+msgid "Online Offline"
+msgstr "Kommunikationsort"
+
+#: View/Conflicttypes/view.ctp:96
+#: View/Realisations/view.ctp:249
+msgid "Legal Base"
+msgstr "Rechtliche Verankerung - \"Verbindlichkeit\" der Beteiligung"
+
+#: View/EnergySectors/add.ctp:4
+msgid "Add Energy Sector"
+msgstr "Energiepolitischen Bereich hinzufügen"
+
+#: View/EnergySectors/add.ctp:15
+#: View/EnergySectors/edit.ctp:17
+#: View/EnergySectors/view.ctp:31
+#: View/Realisations/add.ctp:205
+#: View/Realisations/edit.ctp:207
+#: View/Realisations/index.ctp:137
+#: View/Realisations/view.ctp:270
+msgid "List Energy Sectors"
+msgstr "Energiepolitische Bereiche auflisten"
+
+#: View/EnergySectors/add.ctp:17
+#: View/EnergySectors/edit.ctp:19
+#: View/EnergySectors/index.ctp:44
+#: View/EnergySectors/view.ctp:34
+msgid "New Realisations"
+msgstr "Fälle auflisten"
+
+#: View/EnergySectors/edit.ctp:4
+#: View/EnergySectors/view.ctp:29
+msgid "Edit Energy Sector"
+msgstr "Energiepolitischen Bereich bearbeiten"
+
+#: View/EnergySectors/index.ctp:2
+msgid "Energy Sectors"
+msgstr "Energiepolitische Bereiche"
+
+#: View/EnergySectors/index.ctp:42
+#: View/EnergySectors/view.ctp:32
+#: View/Realisations/add.ctp:206
+#: View/Realisations/edit.ctp:208
+#: View/Realisations/index.ctp:138
+#: View/Realisations/view.ctp:271;313
+msgid "New Energy Sector"
+msgstr "Neuer Energiepolitischer Bereich"
+
+#: View/EnergySectors/view.ctp:2
+msgid "Energy Sector"
+msgstr "Energiepolitische Bereiche"
+
+#: View/EnergySectors/view.ctp:30
+msgid "Delete Energy Sector"
+msgstr "Energiepolitischer Bereich: Löschen"
+
+#: View/Energypolicylinks/add.ctp:4
+msgid "Add Energypolicylink"
+msgstr "Füge energiepolitisches Themenfeld hinzu"
+
+#: View/Energypolicylinks/add.ctp:16
+#: View/Energypolicylinks/edit.ctp:18
+#: View/Energypolicylinks/view.ctp:31
+#: View/Realisations/add.ctp:207
+#: View/Realisations/edit.ctp:209
+#: View/Realisations/index.ctp:139
+#: View/Realisations/view.ctp:272
+msgid "List Energypolicylinks"
+msgstr "Energiepolitische Themenfelder auflisten"
+
+#: View/Energypolicylinks/edit.ctp:4
+#: View/Energypolicylinks/view.ctp:29
+msgid "Edit Energypolicylink"
+msgstr "Energiepolitisches Themenfeld bearbeiten"
+
+#: View/Energypolicylinks/index.ctp:2
+msgid "Energypolicylinks"
+msgstr "Energiepolitische Themenfelder"
+
+#: View/Energypolicylinks/index.ctp:42
+#: View/Energypolicylinks/view.ctp:32
+#: View/Realisations/add.ctp:208
+#: View/Realisations/edit.ctp:210
+#: View/Realisations/index.ctp:140
+#: View/Realisations/view.ctp:273;348
+msgid "New Energypolicylink"
+msgstr "Neues Energiepolitisches Themenfeld hinzufügen"
+
+#: View/Energypolicylinks/view.ctp:2
+msgid "Energypolicylink"
+msgstr "Energiepolitisches Themenfeld"
+
+#: View/Energypolicylinks/view.ctp:30
+msgid "Delete Energypolicylink"
+msgstr "Energiepolitisches Themenfeld löschen"
+
+#: View/Groups/add.ctp:4
+msgid "Add Group"
+msgstr "Eine Gruppe hinzufügen"
+
+#: View/Groups/add.ctp:16
+#: View/Groups/edit.ctp:18
+#: View/Groups/view.ctp:36
 #: View/Users/add.ctp:18
 #: View/Users/edit.ctp:20
 #: View/Users/index.ctp:49
@@ -264,123 +1070,17 @@ msgstr "Aktionen"
 msgid "List Groups"
 msgstr "Gruppen auflisten"
 
-#: View/Groups/add.ctp:16
-#: View/Groups/edit.ctp:18
-#: View/Groups/index.ctp:43
-#: View/Groups/view.ctp:33
-#: View/Users/add.ctp:17
-#: View/Users/edit.ctp:19
-#: View/Users/view.ctp:41
-msgid "List Users"
-msgstr "Benutzer auflisten"
-
-#: View/Groups/add.ctp:17
-#: View/Groups/edit.ctp:19
-#: View/Groups/index.ctp:44
-#: View/Groups/view.ctp:34;72
-#: View/Users/index.ctp:48
-#: View/Users/view.ctp:42
-msgid "New User"
-msgstr "Neuer Benutzer"
-
 #: View/Groups/edit.ctp:4
-#: View/Groups/view.ctp:29
+#: View/Groups/view.ctp:34
 msgid "Edit Group"
 msgstr "Gruppe bearbeiten"
-
-#: View/Groups/edit.ctp:16
-#: View/Groups/index.ctp:20
-#: View/Groups/view.ctp:63
-#: View/Municipalities/edit.ctp:32
-#: View/Municipalities/index.ctp:48
-#: View/Processcomponents/edit.ctp:16
-#: View/Processcomponents/index.ctp:16
-#: View/Realisations/edit.ctp:39
-#: View/Realisations/index.ctp:56
-#: View/Realisations/view.ctp:181;212;243
-#: View/Reviews/edit.ctp:16
-#: View/Reviews/index.ctp:16
-#: View/Users/edit.ctp:18
-#: View/Users/index.ctp:26
-msgid "Delete"
-msgstr "Löschen"
-
-#: View/Groups/edit.ctp:16
-#: View/Groups/index.ctp:20
-#: View/Groups/view.ctp:30;63
-#: View/Municipalities/edit.ctp:32
-#: View/Municipalities/index.ctp:48
-#: View/Municipalities/view.ctp:100
-#: View/Processcomponents/edit.ctp:16
-#: View/Processcomponents/index.ctp:16
-#: View/Processcomponents/view.ctp:20
-#: View/Realisations/edit.ctp:39
-#: View/Realisations/index.ctp:56
-#: View/Realisations/view.ctp:120;181;212;243
-#: View/Reviews/edit.ctp:16
-#: View/Reviews/index.ctp:16
-#: View/Reviews/view.ctp:20
-#: View/Users/edit.ctp:18
-#: View/Users/index.ctp:26
-#: View/Users/view.ctp:40
-msgid "Are you sure you want to delete # %s?"
-msgstr "Sind Sie sicher, dass Sie die Gruppe # %s löschen wollen?"
 
 #: View/Groups/index.ctp:2
 msgid "Groups"
 msgstr "Gruppen"
 
-#: View/Groups/index.ctp:18
-#: View/Groups/view.ctp:61
-#: View/Municipalities/index.ctp:46
-#: View/Processcomponents/index.ctp:14
-#: View/Realisations/index.ctp:54
-#: View/Realisations/view.ctp:179;210;241
-#: View/Reviews/index.ctp:14
-#: View/Users/index.ctp:24
-msgid "View"
-msgstr "Ansicht"
-
-#: View/Groups/index.ctp:19
-#: View/Groups/view.ctp:62
-#: View/Municipalities/index.ctp:47
-#: View/Processcomponents/index.ctp:15
-#: View/Realisations/index.ctp:55
-#: View/Realisations/view.ctp:180;211;242
-#: View/Reviews/index.ctp:15
-#: View/Users/index.ctp:25
-msgid "Edit"
-msgstr "Bearbeiten"
-
-#: View/Groups/index.ctp:28
-#: View/Municipalities/index.ctp:56
-#: View/Processcomponents/index.ctp:24
-#: View/Realisations/index.ctp:64
-#: View/Reviews/index.ctp:24
-#: View/Users/index.ctp:34
-msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
-msgstr "Seite {:page} von {:pages}, zeige {:current} Einträge von {:count} insgesamt, beginne bei Eintrag {:start}, ende bei Eintrag {:end}"
-
-#: View/Groups/index.ctp:33
-#: View/Municipalities/index.ctp:61
-#: View/Processcomponents/index.ctp:29
-#: View/Realisations/index.ctp:69
-#: View/Reviews/index.ctp:29
-#: View/Users/index.ctp:39
-msgid "previous"
-msgstr "Zurück"
-
-#: View/Groups/index.ctp:35
-#: View/Municipalities/index.ctp:63
-#: View/Processcomponents/index.ctp:31
-#: View/Realisations/index.ctp:71
-#: View/Reviews/index.ctp:31
-#: View/Users/index.ctp:41
-msgid "next"
-msgstr "Weiter"
-
-#: View/Groups/index.ctp:42
-#: View/Groups/view.ctp:32
+#: View/Groups/index.ctp:44
+#: View/Groups/view.ctp:37
 #: View/Users/add.ctp:19
 #: View/Users/edit.ctp:21
 #: View/Users/index.ctp:50
@@ -393,53 +1093,15 @@ msgstr "Neue Gruppe"
 msgid "Group"
 msgstr "Gruppe"
 
-#: View/Groups/view.ctp:4;42
-#: View/Municipalities/view.ctp:4
-#: View/Processcomponents/view.ctp:4
-#: View/Realisations/view.ctp:4;136;199;230
-#: View/Reviews/view.ctp:4
-#: View/Users/view.ctp:4
-msgid "Id"
-msgstr "ID"
+#: View/Groups/view.ctp:24
+#: View/Realisations/view.ctp:496
+#: View/Stakeholders/view.ctp:14
+msgid "Type"
+msgstr "Typ"
 
-#: View/Groups/view.ctp:9
-#: View/Municipalities/view.ctp:39
-#: View/Processcomponents/view.ctp:9
-#: View/Realisations/view.ctp:19;143;200
-msgid "Name"
-msgstr "Name"
-
-#: View/Groups/view.ctp:14;46
-#: View/Users/view.ctp:24
-msgid "Created"
-msgstr "Erstellt"
-
-#: View/Groups/view.ctp:19;47
-#: View/Users/view.ctp:29
-msgid "Modified"
-msgstr "Geändert"
-
-#: View/Groups/view.ctp:30
+#: View/Groups/view.ctp:35
 msgid "Delete Group"
 msgstr "Gruppe löschen"
-
-#: View/Groups/view.ctp:38
-msgid "Related Users"
-msgstr "Zugehörige Benutzer"
-
-#: View/Groups/view.ctp:43
-#: View/Users/view.ctp:9
-msgid "Username"
-msgstr "Benutzername"
-
-#: View/Groups/view.ctp:44
-#: View/Users/view.ctp:14
-msgid "Password"
-msgstr "Passwort"
-
-#: View/Groups/view.ctp:45
-msgid "Group Id"
-msgstr "Gruppenkennung"
 
 #: View/Municipalities/add.ctp:4
 msgid "Add Municipality"
@@ -448,10 +1110,10 @@ msgstr "Ort hinzufügen"
 #: View/Municipalities/add.ctp:31
 #: View/Municipalities/edit.ctp:33
 #: View/Municipalities/view.ctp:101
-#: View/Realisations/add.ctp:39
-#: View/Realisations/edit.ctp:41
-#: View/Realisations/index.ctp:79
-#: View/Realisations/view.ctp:123
+#: View/Realisations/add.ctp:209
+#: View/Realisations/edit.ctp:211
+#: View/Realisations/index.ctp:141
+#: View/Realisations/view.ctp:274
 msgid "List Municipalities"
 msgstr "Orte auflisten"
 
@@ -466,95 +1128,79 @@ msgstr "Orte"
 
 #: View/Municipalities/index.ctp:70
 #: View/Municipalities/view.ctp:102
-#: View/Realisations/add.ctp:40
-#: View/Realisations/edit.ctp:42
-#: View/Realisations/index.ctp:80
-#: View/Realisations/view.ctp:124;190
+#: View/Realisations/add.ctp:210
+#: View/Realisations/edit.ctp:212
+#: View/Realisations/index.ctp:142
+#: View/Realisations/view.ctp:275;415
 msgid "New Municipality"
 msgstr "Neuer Ort"
 
 #: View/Municipalities/view.ctp:2
-#: View/Realisations/view.ctp:9
 msgid "Municipality"
 msgstr "Ort"
 
 #: View/Municipalities/view.ctp:9
-#: View/Realisations/view.ctp:137
+#: View/Realisations/view.ctp:358
 msgid "Land No"
 msgstr "Land Nr."
 
-#: View/Municipalities/view.ctp:14
-#: View/Realisations/view.ctp:14;138
-msgid "Land"
-msgstr "Land"
-
 #: View/Municipalities/view.ctp:19
-#: View/Realisations/view.ctp:139
+#: View/Realisations/view.ctp:360
 msgid "Type Of Set"
 msgstr "Art der Menge"
 
 #: View/Municipalities/view.ctp:24
-#: View/Realisations/view.ctp:140
+#: View/Realisations/view.ctp:361
 msgid "Text Signature"
 msgstr "Textsignatur"
 
 #: View/Municipalities/view.ctp:29
-#: View/Realisations/view.ctp:141
+#: View/Realisations/view.ctp:362
 msgid "Type Of Municipality"
 msgstr "Ortstyp"
 
 #: View/Municipalities/view.ctp:34
-#: View/Realisations/view.ctp:142
+#: View/Realisations/view.ctp:363
 msgid "Region No"
 msgstr "Regionalschlüssel"
 
 #: View/Municipalities/view.ctp:44
-#: View/Realisations/view.ctp:144
+#: View/Realisations/view.ctp:365
 msgid "Seat Of Authority"
 msgstr "Verwaltungssitz"
 
 #: View/Municipalities/view.ctp:49
-#: View/Realisations/view.ctp:145
+#: View/Realisations/view.ctp:366
 msgid "Street"
 msgstr "Straße"
 
-#: View/Municipalities/view.ctp:54
-#: View/Realisations/view.ctp:146
-msgid "PLZ"
-msgstr "PLZ"
-
 #: View/Municipalities/view.ctp:59
-#: View/Realisations/view.ctp:147
+#: View/Realisations/view.ctp:368
 msgid "Location"
-msgstr "Ortsname"
+msgstr "Landkreis"
 
 #: View/Municipalities/view.ctp:64
-#: View/Realisations/view.ctp:148
+#: View/Realisations/view.ctp:369
 msgid "Area"
-msgstr "Fläche"
-
-#: View/Municipalities/view.ctp:69
-#: View/Realisations/view.ctp:99;149
-msgid "Date"
-msgstr "Datum"
+msgstr "Bereich"
 
 #: View/Municipalities/view.ctp:74
-#: View/Realisations/view.ctp:150
+#: View/Realisations/view.ctp:371
 msgid "Inhabitants"
 msgstr "Einwohner"
 
 #: View/Municipalities/view.ctp:79
-#: View/Realisations/view.ctp:151
+#: View/Realisations/view.ctp:372
 msgid "Male"
 msgstr "männlich"
 
 #: View/Municipalities/view.ctp:84
-#: View/Realisations/view.ctp:152
+#: View/Realisations/view.ctp:373
 msgid "Female"
 msgstr "weiblich"
 
 #: View/Municipalities/view.ctp:89
-#: View/Realisations/view.ctp:153
+#: View/Realisations/view.ctp:374
 msgid "Density Of Inhabitants"
 msgstr "Einwohnerdichte"
 
@@ -566,18 +1212,18 @@ msgstr "Ort löschen"
 msgid "Add Processcomponent"
 msgstr "Beteiligungskomponente hinzufügen"
 
-#: View/Processcomponents/add.ctp:15
-#: View/Processcomponents/edit.ctp:17
-#: View/Processcomponents/view.ctp:21
-#: View/Realisations/add.ctp:41
-#: View/Realisations/edit.ctp:43
-#: View/Realisations/index.ctp:81
-#: View/Realisations/view.ctp:125
+#: View/Processcomponents/add.ctp:16
+#: View/Processcomponents/edit.ctp:18
+#: View/Processcomponents/view.ctp:31
+#: View/Realisations/add.ctp:211
+#: View/Realisations/edit.ctp:213
+#: View/Realisations/index.ctp:143
+#: View/Realisations/view.ctp:276
 msgid "List Processcomponents"
 msgstr "Beteiligungskomponenten auflisten"
 
 #: View/Processcomponents/edit.ctp:4
-#: View/Processcomponents/view.ctp:19
+#: View/Processcomponents/view.ctp:29
 msgid "Edit Processcomponent"
 msgstr "Beteiligungskomponente bearbeiten"
 
@@ -585,12 +1231,12 @@ msgstr "Beteiligungskomponente bearbeiten"
 msgid "Processcomponents"
 msgstr "Beteiligungskomponenten"
 
-#: View/Processcomponents/index.ctp:38
-#: View/Processcomponents/view.ctp:22
-#: View/Realisations/add.ctp:42
-#: View/Realisations/edit.ctp:44
-#: View/Realisations/index.ctp:82
-#: View/Realisations/view.ctp:126;221
+#: View/Processcomponents/index.ctp:42
+#: View/Processcomponents/view.ctp:32
+#: View/Realisations/add.ctp:212
+#: View/Realisations/edit.ctp:214
+#: View/Realisations/index.ctp:144
+#: View/Realisations/view.ctp:277;450
 msgid "New Processcomponent"
 msgstr "Neue Beteiligungskomponente"
 
@@ -598,41 +1244,54 @@ msgstr "Neue Beteiligungskomponente"
 msgid "Processcomponent"
 msgstr "Beteiligungskomponente"
 
-#: View/Processcomponents/view.ctp:20
+#: View/Processcomponents/view.ctp:30
 msgid "Delete Processcomponent"
 msgstr "Beteiligungskomponente löschen"
 
-#: View/Realisations/add.ctp:4
+#: View/Realisations/add.ctp:5
 msgid "Add Realisation"
 msgstr "Fall hinzufügen"
 
-#: View/Realisations/add.ctp:38
-#: View/Realisations/edit.ctp:40
-#: View/Realisations/view.ctp:121
-msgid "List Realisations"
-msgstr "Fälle auflisten"
+#: View/Realisations/add.ctp:203
+#: View/Realisations/edit.ctp:205
+#: View/Realisations/index.ctp:135
+#: View/Realisations/view.ctp:268
+#: View/Stakeholders/add.ctp:17
+#: View/Stakeholders/edit.ctp:19
+#: View/Stakeholders/view.ctp:26
+msgid "List Stakeholders"
+msgstr "Beteiligte Akteursgruppen auflisten"
 
-#: View/Realisations/add.ctp:43
-#: View/Realisations/edit.ctp:45
-#: View/Realisations/index.ctp:83
-#: View/Realisations/view.ctp:127
+#: View/Realisations/add.ctp:204
+#: View/Realisations/edit.ctp:206
+#: View/Realisations/index.ctp:136
+#: View/Realisations/view.ctp:269;518
+#: View/Stakeholders/index.ctp:40
+#: View/Stakeholders/view.ctp:27
+msgid "New Stakeholder"
+msgstr "Neue beteiligte Akteursgruppe"
+
+#: View/Realisations/add.ctp:213
+#: View/Realisations/edit.ctp:215
+#: View/Realisations/index.ctp:145
+#: View/Realisations/view.ctp:278
 #: View/Reviews/add.ctp:15
 #: View/Reviews/edit.ctp:17
 #: View/Reviews/view.ctp:21
 msgid "List Reviews"
 msgstr "Bewertungen auflisten"
 
-#: View/Realisations/add.ctp:44
-#: View/Realisations/edit.ctp:46
-#: View/Realisations/index.ctp:84
-#: View/Realisations/view.ctp:128;252
+#: View/Realisations/add.ctp:214
+#: View/Realisations/edit.ctp:216
+#: View/Realisations/index.ctp:146
+#: View/Realisations/view.ctp:279;485
 #: View/Reviews/index.ctp:38
 #: View/Reviews/view.ctp:22
 msgid "New Review"
 msgstr "Neue Bewertung"
 
-#: View/Realisations/edit.ctp:4
-#: View/Realisations/view.ctp:119
+#: View/Realisations/edit.ctp:5
+#: View/Realisations/view.ctp:264
 msgid "Edit Realisation"
 msgstr "Fall bearbeiten"
 
@@ -640,103 +1299,51 @@ msgstr "Fall bearbeiten"
 msgid "Realisations"
 msgstr "Fälle"
 
-#: View/Realisations/index.ctp:78
-#: View/Realisations/view.ctp:122
-msgid "New Realisation"
-msgstr "Neuer Fall"
-
 #: View/Realisations/view.ctp:2
 msgid "Realisation"
 msgstr "Fall"
 
-#: View/Realisations/view.ctp:24
-msgid "Initiating Actor"
-msgstr "Einleitungsakteur"
+#: View/Realisations/view.ctp:229
+#: View/Stakeholders/view.ctp:2
+msgid "Stakeholder"
+msgstr "Akteur"
 
-#: View/Realisations/view.ctp:29
-msgid "Demand Of Participation"
-msgstr "Beteiligungsnachfrage"
+#: View/Realisations/view.ctp:254
+msgid "Ladder Participation"
+msgstr "Partizipationsstufe (\"Grad der Bürgermitwirkung\")"
 
-#: View/Realisations/view.ctp:34
-msgid "Supplier Of Participation"
-msgstr "Anbieter der Beteiligung"
-
-#: View/Realisations/view.ctp:39
-msgid "Comment On Initiating Process"
-msgstr "Kommentar zum Einleitungsprozess"
-
-#: View/Realisations/view.ctp:44
-msgid "Contingency Of Decision"
-msgstr "Entscheidungsoffenheit"
-
-#: View/Realisations/view.ctp:49
-msgid "Echt"
-msgstr "Echt"
-
-#: View/Realisations/view.ctp:54
-msgid "Unecht"
-msgstr "Unecht"
-
-#: View/Realisations/view.ctp:59
-msgid "Description Of Process"
-msgstr "Prozessbeschreibung"
-
-#: View/Realisations/view.ctp:64
-msgid "Invitation"
-msgstr "Einladung"
-
-#: View/Realisations/view.ctp:69
-msgid "Citizen Information"
-msgstr "Bürgerinformation"
-
-#: View/Realisations/view.ctp:74
-msgid "Participation In Conflicts"
-msgstr "Konfliktbeteiligung"
-
-#: View/Realisations/view.ctp:79
-msgid "Participation In Decisionmaking"
-msgstr "Entscheidungsbeteiligung"
-
-#: View/Realisations/view.ctp:84
-msgid "Community Service"
-msgstr "Bürgerengagement"
-
-#: View/Realisations/view.ctp:89
-msgid "Conflict Of Values"
-msgstr "Wertkonflikt"
-
-#: View/Realisations/view.ctp:94
-msgid "Conflict Of Interests"
-msgstr "Interessenkonflikt"
-
-#: View/Realisations/view.ctp:104
-msgid "URL"
-msgstr "URL"
-
-#: View/Realisations/view.ctp:109
-msgid "U"
-msgstr "U"
-
-#: View/Realisations/view.ctp:120
+#: View/Realisations/view.ctp:265
 msgid "Delete Realisation"
 msgstr "Fall löschen"
 
-#: View/Realisations/view.ctp:132
+#: View/Realisations/view.ctp:283
+msgid "Related Energy Sectors"
+msgstr "Zugehörige Energiepolitischer Bereich"
+
+#: View/Realisations/view.ctp:318
+msgid "Related Energypolicylinks"
+msgstr "Zugehörige Energiepolitische Themenfelder"
+
+#: View/Realisations/view.ctp:353
 msgid "Related Municipalities"
 msgstr "Zugehörige Orte"
 
-#: View/Realisations/view.ctp:195
+#: View/Realisations/view.ctp:420
 msgid "Related Processcomponents"
 msgstr "Zugehörige Beteiligungskomponenten"
 
-#: View/Realisations/view.ctp:226
+#: View/Realisations/view.ctp:455
 msgid "Related Reviews"
 msgstr "Zugehörige Bewertungen"
 
-#: View/Realisations/view.ctp:231
+#: View/Realisations/view.ctp:460
 #: View/Reviews/view.ctp:2;9
 msgid "Review"
 msgstr "Bewertung"
+
+#: View/Realisations/view.ctp:490
+msgid "Related Stakeholders"
+msgstr "Zugehörige Beteiligte Akteursgruppen"
 
 #: View/Reviews/add.ctp:4
 msgid "Add Review"
@@ -755,9 +1362,32 @@ msgstr "Bewertungen"
 msgid "Delete Review"
 msgstr "Bewertung löschen"
 
+#: View/Stakeholders/add.ctp:4
+msgid "Add Stakeholder"
+msgstr "Beteiligte Akteursgruppen hinzufügen"
+
+#: View/Stakeholders/edit.ctp:4
+#: View/Stakeholders/view.ctp:24
+msgid "Edit Stakeholder"
+msgstr "Beteiligte Akteursgruppen bearbeiten"
+
+#: View/Stakeholders/index.ctp:2
+msgid "Stakeholders"
+msgstr "Beteiligte Akteursgruppen"
+
+#: View/Stakeholders/view.ctp:25
+msgid "Delete Stakeholder"
+msgstr "Beteiligte Akteursgruppen löschen"
+
 #: View/Users/add.ctp:4
 msgid "Add User"
 msgstr "Füge Benutzer hinzu"
+
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr "Benutzer auflisten"
 
 #: View/Users/edit.ctp:4
 #: View/Users/view.ctp:39
@@ -768,17 +1398,29 @@ msgstr "Ändere Benutzer"
 msgid "Users"
 msgstr "Benutzer"
 
+#: View/Users/index.ctp:48
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr "Neuer Benutzer"
+
 #: View/Users/view.ctp:2
 msgid "User"
 msgstr "Benutzer"
+
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr "Benutzername"
+
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr "Passwort"
 
 #: View/Users/view.ctp:40
 msgid "Delete User"
 msgstr "Lösche Benutzer"
 
-#: Model/Group.php:validation
-#: for field name
 #: Model/Processcomponent.php:validation
+#: for field name
 #: Model/User.php:validation
 #: username;validation password
 msgid "notempty"

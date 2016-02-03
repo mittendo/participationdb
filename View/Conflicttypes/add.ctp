@@ -4,7 +4,6 @@
 		<legend><?php echo __('Add Conflicttype'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
-		echo $this->Form->input('categorycol');
 		echo $this->Form->input('Realisation');
 	?>
 	</fieldset>

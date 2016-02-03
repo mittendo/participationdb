@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-10-16 18:24+0000\n"
+"POT-Creation-Date: 2016-01-13 12:45+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: View/Layouts/default.ctp:19
-msgid "TurnKey CakePHP"
+msgid "Datenbank B&uuml;rgerbeteiligung"
 msgstr ""
 
 #: View/Layouts/error.ctp:20

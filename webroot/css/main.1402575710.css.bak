@@ -1,16 +1,12 @@
-
 /* defintion of mainmenu-colors */
 #main_navigation {
-  position:sticky;
-  top:0px;
   background-color:white;
   display:block;
   float:left;
-  font-size:10px;
-  margin-left:210px;
-  margin-top:-40px;
+  font-size:13px;
+  margin-left:4px;
+  margin-top:65px;
   padding-left:8px;
-  z-index:5;
 }
 
 #main_navigation li {
@@ -49,9 +45,6 @@ input.button {
 
 #sub_navigation {
     background-color:white;
-    float:left;
-    position:sticky;
-    top:0px;
 }
 
 #sub_navigation h2 {
@@ -61,15 +54,11 @@ input.button {
 #sub_navigation ul {
     background-color:white;
     border-top:2px solid #00263f;
-    padding:0;
-    display:inline; 
-    list-style:none;	
-
 }
 
 #sub_navigation ul li {
     border-bottom:2px solid #00263f;
-    }
+}
 
 #sub_navigation ul li.current {
    background-color: #e84c20;

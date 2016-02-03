@@ -51,7 +51,7 @@ class RealisationsController extends AppController {
 		$conflicttypes = $this->Realisation->Conflicttype->find('list');
 		$energySectors = $this->Realisation->EnergySector->find('list');
 		$energypolicylinks = $this->Realisation->Energypolicylink->find('list');
-		$municipalities = $this->Realisation->Municipality->find('list');
+		$municipalities = $this->Realisation->Municipality->find('list', array('order' => 'name ASC'));
 		$processcomponents = $this->Realisation->Processcomponent->find('list');
 		$reviews = $this->Realisation->Review->find('list');
 		$stakeholders = $this->Realisation->Stakeholder->find('list');

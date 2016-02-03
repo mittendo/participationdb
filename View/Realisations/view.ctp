@@ -131,14 +131,9 @@
 			<?php echo h($realisation['Realisation']['sektor']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Issue Energy'); ?></dt>
+		<dt><?php echo __('Outcome'); ?></dt>
 		<dd>
-			<?php echo h($realisation['Realisation']['issue_energy']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Policy'); ?></dt>
-		<dd>
-			<?php echo h($realisation['Realisation']['policy']); ?>
+			<?php echo h($realisation['Realisation']['outcome']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Short Description'); ?></dt>
@@ -211,11 +206,6 @@
 			<?php echo h($realisation['Realisation']['publicity_scope']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Conflict Type'); ?></dt>
-		<dd>
-			<?php echo h($realisation['Realisation']['conflict_type']); ?>
-			&nbsp;
-		</dd>
 		<dt><?php echo __('Escalation Degree'); ?></dt>
 		<dd>
 			<?php echo h($realisation['Realisation']['escalation_degree']); ?>
@@ -251,6 +241,16 @@
 			<?php echo h($realisation['Realisation']['legal_base']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Realisationscol'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['realisationscol']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('File'); ?></dt>
+		<dd>
+			<?php echo h($realisation['Realisation']['file']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">
@@ -262,6 +262,8 @@
 		<li><?php echo $this->Html->link(__('New Realisation'), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Stakeholders'), array('controller' => 'stakeholders', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Stakeholder'), array('controller' => 'stakeholders', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Conflicttypes'), array('controller' => 'conflicttypes', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Conflicttype'), array('controller' => 'conflicttypes', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Energy Sectors'), array('controller' => 'energy_sectors', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Energy Sector'), array('controller' => 'energy_sectors', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Energypolicylinks'), array('controller' => 'energypolicylinks', 'action' => 'index')); ?> </li>
@@ -273,6 +275,41 @@
 		<li><?php echo $this->Html->link(__('List Reviews'), array('controller' => 'reviews', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Review'), array('controller' => 'reviews', 'action' => 'add')); ?> </li>
 	</ul>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Conflicttypes'); ?></h3>
+	<?php if (!empty($realisation['Conflicttype'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Name'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Modified'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($realisation['Conflicttype'] as $conflicttype): ?>
+		<tr>
+			<td><?php echo $conflicttype['id']; ?></td>
+			<td><?php echo $conflicttype['name']; ?></td>
+			<td><?php echo $conflicttype['created']; ?></td>
+			<td><?php echo $conflicttype['modified']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'conflicttypes', 'action' => 'view', $conflicttype['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'conflicttypes', 'action' => 'edit', $conflicttype['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'conflicttypes', 'action' => 'delete', $conflicttype['id']), null, __('Are you sure you want to delete # %s?', $conflicttype['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Conflicttype'), array('controller' => 'conflicttypes', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
 </div>
 <div class="related">
 	<h3><?php echo __('Related Energy Sectors'); ?></h3>

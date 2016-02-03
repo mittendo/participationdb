@@ -5,6 +5,7 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('type'); ?></th>
+			<th><?php echo $this->Paginator->sort('number'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($stakeholders as $stakeholder): ?>
@@ -12,6 +13,7 @@
 		<td><?php echo h($stakeholder['Stakeholder']['id']); ?>&nbsp;</td>
 		<td><?php echo h($stakeholder['Stakeholder']['name']); ?>&nbsp;</td>
 		<td><?php echo h($stakeholder['Stakeholder']['type']); ?>&nbsp;</td>
+		<td><?php echo h($stakeholder['Stakeholder']['number']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $stakeholder['Stakeholder']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $stakeholder['Stakeholder']['id'])); ?>

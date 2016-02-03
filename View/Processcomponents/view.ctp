@@ -21,6 +21,11 @@
 			<?php echo h($processcomponent['Processcomponent']['modified']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Number'); ?></dt>
+		<dd>
+			<?php echo h($processcomponent['Processcomponent']['number']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">
@@ -65,14 +70,31 @@
 		<th><?php echo __('Bottomup Topdown'); ?></th>
 		<th><?php echo __('Regional Relation'); ?></th>
 		<th><?php echo __('Sektor'); ?></th>
-		<th><?php echo __('Issue Energy'); ?></th>
-		<th><?php echo __('Policy'); ?></th>
+		<th><?php echo __('Outcome'); ?></th>
+		<th><?php echo __('Miscellaneous'); ?></th>
 		<th><?php echo __('Short Description'); ?></th>
 		<th><?php echo __('Success'); ?></th>
 		<th><?php echo __('Social Innovation Relation'); ?></th>
 		<th><?php echo __('Jahr'); ?></th>
 		<th><?php echo __('PLZ'); ?></th>
 		<th><?php echo __('Inhabitants Classified'); ?></th>
+		<th><?php echo __('Start Date'); ?></th>
+		<th><?php echo __('End Date'); ?></th>
+		<th><?php echo __('Target Of Participation'); ?></th>
+		<th><?php echo __('Target Of Participation Description'); ?></th>
+		<th><?php echo __('Relation Energy Change Policy'); ?></th>
+		<th><?php echo __('Regional Scope'); ?></th>
+		<th><?php echo __('Regional Scope Description'); ?></th>
+		<th><?php echo __('Publicity Scope'); ?></th>
+		<th><?php echo __('Escalation Degree'); ?></th>
+		<th><?php echo __('Conflict Aspect Other'); ?></th>
+		<th><?php echo __('Stakeholder Id'); ?></th>
+		<th><?php echo __('Energypolicylink Description'); ?></th>
+		<th><?php echo __('Energysector Description'); ?></th>
+		<th><?php echo __('Online Offline'); ?></th>
+		<th><?php echo __('Legal Base'); ?></th>
+		<th><?php echo __('Realisationscol'); ?></th>
+		<th><?php echo __('File'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php
@@ -105,14 +127,31 @@
 			<td><?php echo $realisation['bottomup_topdown']; ?></td>
 			<td><?php echo $realisation['regional_relation']; ?></td>
 			<td><?php echo $realisation['sektor']; ?></td>
-			<td><?php echo $realisation['issue_energy']; ?></td>
-			<td><?php echo $realisation['policy']; ?></td>
+			<td><?php echo $realisation['outcome']; ?></td>
+			<td><?php echo $realisation['miscellaneous']; ?></td>
 			<td><?php echo $realisation['short_description']; ?></td>
 			<td><?php echo $realisation['success']; ?></td>
 			<td><?php echo $realisation['social_innovation_relation']; ?></td>
 			<td><?php echo $realisation['Jahr']; ?></td>
 			<td><?php echo $realisation['PLZ']; ?></td>
 			<td><?php echo $realisation['inhabitants_classified']; ?></td>
+			<td><?php echo $realisation['start_date']; ?></td>
+			<td><?php echo $realisation['end_date']; ?></td>
+			<td><?php echo $realisation['target_of_participation']; ?></td>
+			<td><?php echo $realisation['target_of_participation_description']; ?></td>
+			<td><?php echo $realisation['relation_energy_change_policy']; ?></td>
+			<td><?php echo $realisation['regional_scope']; ?></td>
+			<td><?php echo $realisation['regional_scope_description']; ?></td>
+			<td><?php echo $realisation['publicity_scope']; ?></td>
+			<td><?php echo $realisation['escalation_degree']; ?></td>
+			<td><?php echo $realisation['conflict_aspect_other']; ?></td>
+			<td><?php echo $realisation['stakeholder_id']; ?></td>
+			<td><?php echo $realisation['energypolicylink_description']; ?></td>
+			<td><?php echo $realisation['energysector_description']; ?></td>
+			<td><?php echo $realisation['online_offline']; ?></td>
+			<td><?php echo $realisation['legal_base']; ?></td>
+			<td><?php echo $realisation['realisationscol']; ?></td>
+			<td><?php echo $realisation['file']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'realisations', 'action' => 'view', $realisation['id'])); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'realisations', 'action' => 'edit', $realisation['id'])); ?>

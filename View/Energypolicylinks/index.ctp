@@ -6,6 +6,7 @@
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
+			<th><?php echo $this->Paginator->sort('number'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($energypolicylinks as $energypolicylink): ?>
@@ -14,6 +15,7 @@
 		<td><?php echo h($energypolicylink['Energypolicylink']['name']); ?>&nbsp;</td>
 		<td><?php echo h($energypolicylink['Energypolicylink']['created']); ?>&nbsp;</td>
 		<td><?php echo h($energypolicylink['Energypolicylink']['modified']); ?>&nbsp;</td>
+		<td><?php echo h($energypolicylink['Energypolicylink']['number']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $energypolicylink['Energypolicylink']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $energypolicylink['Energypolicylink']['id'])); ?>

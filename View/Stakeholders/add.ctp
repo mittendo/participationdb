@@ -5,6 +5,7 @@
 	<?php
 		echo $this->Form->input('name');
 		echo $this->Form->input('type');
+		echo $this->Form->input('number');
 		echo $this->Form->input('Realisation');
 	?>
 	</fieldset>
