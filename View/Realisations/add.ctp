@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<head>
+</head>
 <body>
 <div id="center_column">
 <div class="realisations form">
@@ -12,7 +15,7 @@
         echo $this->Form->input('main_municipality');
 		echo $this->Form->input('PLZ');
         echo $this->Form->input('inhabitants_classified',
-               array(
+					array(
                         'options' => array(
                             '1 = 1 bis 2.000 EWZ', 
                             '2 = 2.001 bis 5.000 EWZ',
@@ -30,7 +33,6 @@
                             '1 = Stadtteil bzw. Ortsteil', 
                             '2 = Gemeinde',
                             '3 = Region',
-                            '3.a = Angabe, um welche Region es sich handelt (offene Antwortmöglichkeit)',
                             '4 = Land NRW'
                             ),
                         'empty' => '(bitte auswählen)'                       )
@@ -41,7 +43,6 @@
                     array(
                     'options' => array(
                         '1 = Beteiligung im Sinne der Energiewende',
-                        
                         '1a = Energieerzeugung',
                         '1b = Energienutzung',  
                         '2 = Beteiligung nicht im Sinne der Energiewende',
@@ -55,14 +56,16 @@
                 array(
                     'options' => array(
                         '1 = Biomasse',
-                        '2 = Stromnetze/ Trassenausbau 3 = Windenergie',
-                        '4 = Speicher/ Pumpspeicherkra werke',
+                        '2 = Stromnetze/Trassenausbau', 
+                        '3 = Windenergie',
+                        '4 = Speicher/Pumpspeicherkraftwerke',
                         '5 = CCS-Anlagen',
                         '6 = Straßen- und Schienentrassen',
-                        '7 = Konven onelle Kra werke 7a = Kohlekra werke',
+                        '7 = Konventionelle Krafwerke', 
+                        '7a = Kohlekraftwerke',
                         '7b = Ölkraftwerke',
                         '7c = Gaskraftwerke',
-                        '7d= Kernkraftwerke',
+                        '7d = Kernkraftwerke',
                         '8 =  Tiefe Geothermie',
                         '8a = Fracking',
                         '9 = oberflächliche Geothermie', 
@@ -78,9 +81,9 @@
                 array(
                     'options' => array(
                         '1 = Industrie',
-                        '2 = Gewerbe, Handel',
+                        '2 = Gewerbe/Handel',
                         '3 = Dienstleistungen',  
-                        '4 = Verkehr / Mobilität',
+                        '4 = Verkehr/Mobilität',
                         '5 = Wohnen',
                         '6 = Ernährung',
                         '7 = Bekleidung',
@@ -103,15 +106,16 @@
                     '2b = öffentlicher Infrastrukturprojekte',
                     '3 = Haushaltsplanungen',
                     '4 = Energiewirtschaft allgemein',
-                    '4a = Energiepreise, Strompreise',
+                    '4a = Energiepreise/Strompreise',
                     '4b = Netzausbau',
                     '4c = Energiesicherheit',
                     '4d = Energieverbrauch, -bedarf',
                     '4e = Netzanschluss',
                     '4f = Oligopol/Eigentumsrechte'
                     ),
-            'empty' => '(bitte auswählen)'
-        ));
+            'empty' => '(bitte auswählen)' 
+            )
+        );
         echo $this->Form->input('target_of_participation_description');
         echo $this->Form->input('short_description');
 		echo $this->Form->input('initiating_actor',
@@ -122,18 +126,17 @@
                                 '3 = Verbände',
                                 '4 = Politik',
                                 '4.1 = Kommunale Akteure', 
-                                '4.1a = politischen Parteien',
-                                '4.1b OB / LR',
-                                '4.1c Kommunalvertretungen: Kreisrat, Rat, Stadtrat',
-                                '4.1d Landschafts- und / oder Kommunalverbände',
-                                '4.2 Landespolitische Akteure',
-                                '4.3 Bundespolitische Akteure',
-                                '4.4 EU-Akteure',
+                                '4.1a = politische Parteien',
+                                '4.1b = OB/LR',
+                                '4.1c = Kommunalvertretungen: Kreisrat, Rat, Stadtrat',
+                                '4.1d = Landschafts- und/oder Kommunalverbände',
+                                '4.2 = Landespolitische Akteure',
+                                '4.3 = Bundespolitische Akteure',
+                                '4.4 = EU-Akteure',
                                 '5 = Verwaltung',
                                 '6 = Wirtschaft',
-                                '6. Wirtschaft',
-                                '6a.Unternehmen der Energiewende',
-                                '6b. Konventionelle Energieversorger',
+                                '6a = Unternehmen der Energiewende',
+                                '6b = Konventionelle Energieversorger',
                                 '7 = sonstige'
                             ),
                             'empty' => '(bitte auswählen)' 
@@ -142,7 +145,7 @@
         echo $this->Form->input('bottomup_topdown',
                         array(
                             'options' => array(
-                                '1= top-down', 
+                                '1 = top-down', 
                                 '2 = bottom-up'
                                 ),
                             'empty' => '(bitte auswählen)'
@@ -152,8 +155,8 @@
                             'options' => array(
                                 '1 = Einzelpersonen',
                                 '2 = Bürgerinitiativen, Vereine', 
-                                '2a = neu gegründete',
-                                '2b = bestehende',
+                                '2a = neu gegründete Initiativen',
+                                '2b = bestehende Initiativen',
                                 '3 = Verbände',
                                 '3a = Wirtschaftsverbände',
                                 '3b = Verbraucher- und Umweltschutzverbände',
@@ -162,28 +165,30 @@
                                 '3e = sonstige',
                                 '4 = Politik',
                                 '4.1 = Kommunale Akteure', 
-                                '4.1a = politischen Parteien',
-                                '4.1b = OB / LR',
+                                '4.1a = politische Parteien',
+                                '4.1b = OB/LR',
                                 '4.1c = Kommunalvertretungen:
-                                Kreisrat, Rat, Stadtrat 4.1d = Landscha s- und / oder Kommunalverbände',
+                                    Kreisrat, Rat, Stadtrat', 
+                                '4.1d = Landschafts- und/oder Kommunalverbände',
                                 '4.2 = Landespolitische Akteure', 
-                                '4.3 = Bundespoli sche Akteure', 
+                                '4.3 = Bundespolitische Akteure', 
                                 '4.4 = EU-Akteure',
                                 '5 = Verwaltung',
-                                '6 =Wirtschaft', 
+                                '6 = Wirtschaft', 
                                 '6a = Unternehmen der Energiewende',
                                 '6b = Konventionelle Energieversorger',
-                                '7 =sonstige'
+                                '7 = sonstige'
                             ),
                         'empty' => '(bitte auswählen)'
-        ));
+		)
+        );
         echo $this->Form->input('legal_base', array(
             'options' => array(
                 '1 = formelle Beteiligung: Gesetzlich vorgeschriebene Beteiligung',
-                '1a = Unterrichtung der Einwohnerinnen und Einwohner (Amtsblätter, das Internet, die Medien oder Bürgerbriefe)',
+                '1a = Unterrichtung der Einwohnerinnen und Einwohner (Amtsblätter, das Internet, die Medien oder       Bürgerbriefe)',
                 '1b = Bürgerversammlung',
                 '1c = Einrichtung von Kommissionen für sachkundige Einwohner, Beiräte',
-                '1d = Öffentlichkeitsbeteiligung bei der Bauleitplanung, Planfeststellungsverfahren, Raumordnungsverfahren, Umweltverträglichkeitsprüfung',
+                '1d = Öffentlichkeitsbeteiligung bei der Bauleitplanung, Planfeststellungsverfahren,                   Raumordnungsverfahren, Umweltverträglichkeitsprüfung',
                 '1e = Bürgerantrag',
                 '1f = Bürgerbegehren',
                 '2 = informelle Beteiligung: nicht gesetzlich vorgeschriebene, freiwillige Beteiligung',
@@ -191,7 +196,7 @@
                 '2b = Perspektven-, Planungs-, Zukunftswerkstatt und -konferenz',
                 '2c = Mediation',
                 '2d = Open Space',
-                '3 = finanzielle Bürgerbeteiligung'
+                '3 = finanzielle Bürgerbeteiligung (z. B. Energiegenossenschaft)'
                 ),
                 'empty' => '(bitte auswählen)'
             )
@@ -200,9 +205,9 @@
             array(
              'options' => array(
                  '1 = Bürgerbefragungen (Meinungsumfragen, Expertengespräche, Gruppendiskussionen)',
-                 '2 = Bürgerinforma on (Presse, Berichte, Bürgerbüro)',
-                 '3 = Verfahren bei denen ein Meinungsaustausch stattindet (Bürgerstammtsch, -forum, Leserbriefe)',
-                 '4 = Verfahren bei denen Kooperation & Konsensbildung im Vordergrund stehen (Bürgergutachten & Planungszelle, Bürgerhaushalt, Perspektiven-, Planungs-, Zukunftswerkstatt  und -konferenz, Mediaton, Open Space, Runder Tisch)'
+                 '2 = Bürgerinformation (Presse, Berichte, Bürgerbüro)',
+                 '3 = Verfahren bei denen ein Meinungsaustausch stattindet (Bürgerstammtisch, -forum,                  Leserbriefe)',
+                 '4 = Verfahren bei denen Kooperation & Konsensbildung im Vordergrund stehen (Bürgergutachten &      Planungszelle, Bürgerhaushalt, Perspektiven-, Planungs-, Zukunftswerkstatt  und -                konferenz, Mediation, Open Space, Runder Tisch)'
                  ),
             'empty' => '(bitte auswählen)'
             )
@@ -211,11 +216,11 @@
             array(
              'options' => array(
                  '1 = Teilnahme direkt Betroffener', 
-                 '2 = Auswahl der Teilnahme (Einladungsprozess per Zufallsauswahl, direkte Ansprache, quotierte Auswahl, anhand soziodemographischer Merkmale)',
-                 '2a. Zufallsauswahl',
-                 '2b. direkte Ansprache',
-                 '2c. sachkundige Bürger', 
-                 '2d. quotierte Auswahl, anhand soziodemographischer Merkmale',
+                 '2 = Auswahl der Teilnahme (Einladungsprozess per Zufallsauswahl, direkte Ansprache, quotierte          Auswahl, anhand soziodemographischer Merkmale)',
+                 '2a. = Zufallsauswahl',
+                 '2b. = direkte Ansprache',
+                 '2c. = sachkundige Bürger', 
+                 '2d. = quotierte Auswahl, anhand soziodemographischer Merkmale',
                  '3 = offene Teilnahmemöglichkeit',
                  '4 = paritätische Mischung aus 1-3'
                     ),
@@ -235,7 +240,7 @@
             );
         echo $this->Form->input('publicity_scope',
                     array('options' => array(
-                        '1= lokale mediale Berichterstattung',
+                        '1 = lokale mediale Berichterstattung',
                         '2 = regionale mediale Berichterstattung',
                         '3 = überregionale mediale Berichterstattung'
                         ),
@@ -253,16 +258,16 @@
         echo $this->Form->input('conflict_type',
                     array('options' => array(
                         '1 = ökologische Belange (Natur- und Artenschutzfragen, Klimaschutz)',
-                        '2 = Landschaft , Heimat',
-                        '3 = Gesundheit (gesundheitliche Beeinträch gungen, Belästgungen)',
+                        '2 = Landschaft/Heimat',
+                        '3 = Gesundheit (gesundheitliche Beeinträchtigungen, Belästigungen)',
                         '4 = Verlust von Lebensqualität',
-                        '5 = Ängste /Sorgen/ Gefahren- und Risikokapital (z.B. Atomkraft )',
+                        '5 = Ängste/Sorgen/Gefahren- und Risikokapital (z.B. Atomkraft )',
                         '6 = Wirtschaftliche Entwicklung',
                         '6a = Immobilienwertverlust, Immobilienpreisentwicklung',
                         '6b = Kostenzunahme',
                         '6c = Arbeitsplätze',
-                        '7 = Konflikt um Nicht-Wissen / kontroverse wissenschaftliche Meinungen (z. B. gesundheitliche Wirkung elektrischer oder magnetischer Felder)',
-                        '8 = politische (z. B. parteipolitische Konflikte und / oder soziale Konflikte)',
+                        '7 = Konflikt um Nicht-Wissen/kontroverse wissenschaftliche Meinungen (z. B.                  gesundheitliche Wirkung elektrischer oder magnetischer Felder)',
+                        '8 = politische (z. B. parteipolitische Konflikte und/oder soziale Konflikte)',
                         '9 = politische Ereignisse'
                         ),
                     'empty' => '(bitte auswählen)'
@@ -271,9 +276,9 @@
         echo $this->Form->input('conflict_aspect_other');
         echo $this->Form->input('escalation_degree', array(
                 'options' => array(
-                    '1. schwach',
-                    '2. mittel',
-                    '3. stark'
+                    '1 schwach',
+                    '2 mittel',
+                    '3 stark'
                 ),
             'empty' => '(bitte auswählen)'
         ));
@@ -288,8 +293,8 @@
                 array(
                     'options' => array(
                         '1 = offen',
-                        '2 = nicht Erfolgreich im Sinne der Initiatoren der Beteiligung bzw. der Beteiligungsträger',
-                        '3 = Kompromiss' ,
+                        '2 = nicht Erfolgreich im Sinne der Initiatoren der Beteiligung bzw. der                        Beteiligungsträger',
+                        '3 = Kompromiss',
                         '4 = Erfolgreich im Sinne der Initiatoren der Beteiligung bzw. der Beteiligungsträger'
                     ),
                     'empty' => '(bitte auswählen)'
